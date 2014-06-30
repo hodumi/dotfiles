@@ -9,7 +9,8 @@
     auto-complete
     anything
     rainbow-mode
-    
+    popwin
+
     magit
 
     tabbar
