@@ -3,7 +3,7 @@
 
 # TODO
 * Emacsで、MIGEMO入れる。
-* powerlineのカラー設定をする。
+* 10-package.elに記載せずとも自動インストールされる方法を考える。
 
 # 注意点
 1. commitするときは、UTF-8で！
