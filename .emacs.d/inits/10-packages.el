@@ -10,6 +10,7 @@
     anything
     rainbow-mode
     popwin
+    direx
 
     magit
 
