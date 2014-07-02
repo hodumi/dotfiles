@@ -12,5 +12,6 @@
    (set (make-local-variable 'scss-compile-at-save) nil)))
 
 (add-hook 'scss-mode-hook
-  '(lambda() (scss-custom)))
-
+  '(lambda()
+     (scss-custom)
+     (my-rainbow-mode-turn-on)))
