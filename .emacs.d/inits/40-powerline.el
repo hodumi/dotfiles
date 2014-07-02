@@ -8,5 +8,5 @@
                      :inherit 'mode-line)
 
  (set-face-attribute 'powerline-active2 nil
-                     :foreground "#000"
+                     :foreground "#fff"
                      :inherit 'mode-line)
