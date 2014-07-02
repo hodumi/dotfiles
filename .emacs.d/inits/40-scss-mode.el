@@ -13,5 +13,4 @@
 
 (add-hook 'scss-mode-hook
   '(lambda()
-     (scss-custom)
-     (my-rainbow-mode-turn-on)))
+     (scss-custom)))

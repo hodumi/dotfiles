@@ -12,4 +12,4 @@
 (add-to-list 'auto-mode-alist '("\\.css\\'" . web-mode))
 (add-to-list 'auto-mode-alist '("\\.php\\'" . web-mode))
 
-(add-hook 'web-mode-hook 'my-rainbow-mode-turn-on)
+;; (add-hook 'web-mode-hook 'my-rainbow-mode-turn-on)
