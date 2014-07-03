@@ -3,6 +3,7 @@
 
 # TODO
 * ## Caskを使うように設定を変える!
+    + [windowsにCaskを導入する方法](http://aki2o.hatenablog.jp/entry/2014/03/18/Emacs%E4%B8%8A%E3%81%A7Cask%E3%82%92%E6%93%8D%E4%BD%9C%E3%81%A7%E3%81%8D%E3%82%8Bcaskxy.el%E3%82%92%E4%BD%9C%E3%82%8A%E3%81%BE%E3%81%97%E3%81%9F)
 * Emacsで、MIGEMO入れる。
 * 10-package.elに記載せずとも自動インストールされる方法を考える。
     + 3n-\*.el,4n-\*.elの*をインストールさせる？
