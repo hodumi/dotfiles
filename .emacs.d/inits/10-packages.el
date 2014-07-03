@@ -18,6 +18,7 @@
     powerline
     yascroll
 
+    org
     web-mode
     sass-mode
     scss-mode
