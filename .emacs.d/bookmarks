@@ -3,8 +3,8 @@
 ;;; nevertheless, you probably don't want to edit it.
 ;;; -*- End Of Bookmark File Format Version Stamp -*-
 (("org-capture-last-stored"
- (filename . "~/memo/memo.org")
- (front-context-string . "** q\n   \n   [[fi")
- (rear-context-string . "する。\n* New Ideas\n")
- (position . 40))
+ (filename . "~/.config/memo/memo.org")
+ (front-context-string . "** 0100時頃の印刷データは")
+ (rear-context-string . "ブラウザ上のFreeCiv]]\n")
+ (position . 61))
 )
