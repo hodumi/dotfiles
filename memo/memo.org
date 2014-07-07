@@ -2,6 +2,15 @@
 ** 0100時頃の印刷データ(vn095p.vninit.)は、汎用紙で出力し、遅番の汎用紙置場のファイルに入れる。
 * New Ideas
 ** [[http://play.freeciv.org//][ブラウザ上のFreeCiv]]
+** 魔法陣作成ツール
+- JavaScript + SVG
+  - SVG: ベジェ曲線に沿わせて文字の描画が出来る。
+** init-loader.elのナンバリング
+0n : emacsの設定
+1n : ビルドインパッケージの設定
+2n : ビルドインパッケージの設定
+3n : パッケージの設定
+4n : パッケージの設定
 * Inbox
 ** TODO footableとmedia queryの同期が取れていない 			:bug:
    
@@ -10,3 +19,4 @@
 原因：footableで拡大表示時、trが挿入される。
    
 [[file:c:/xampp/htdocs/php/test/resp_inputcon/sass/inputcon.scss::/*******************************************************************************]]
+** TODO [[http://shibayu36.hatenablog.com/entry/2013/01/26/194741][direx-project.elをインストールする。]]
