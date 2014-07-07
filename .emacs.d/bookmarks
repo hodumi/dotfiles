@@ -4,7 +4,7 @@
 ;;; -*- End Of Bookmark File Format Version Stamp -*-
 (("org-capture-last-stored"
  (filename . "~/.config/memo/memo.org")
- (front-context-string . "** 0100時頃の印刷データは")
- (rear-context-string . "ブラウザ上のFreeCiv]]\n")
- (position . 61))
+ (front-context-string . "** TODO [[http:/")
+ (rear-context-string . "*************]]\n")
+ (position . 684))
 )
