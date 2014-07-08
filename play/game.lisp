@@ -4,7 +4,7 @@
   (lambda () (apply fn args) nil))
 
 
-;; 連続実行
+;; 指定回数実行
 (defun times (time fn &rest args)
   (label
    (tms (tm)
@@ -26,3 +26,7 @@
 	  (w (1- tm)))))
    (w time)))
 
+;; 処理を記述
+(defun process (&rest list)
+  
+  )

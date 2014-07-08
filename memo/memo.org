@@ -5,12 +5,8 @@
 ** 魔法陣作成ツール
 - JavaScript + SVG
   - SVG: ベジェ曲線に沿わせて文字の描画が出来る。
-** init-loader.elのナンバリング
-0n : emacsの設定
-1n : ビルドインパッケージの設定
-2n : ビルドインパッケージの設定
-3n : パッケージの設定
-4n : パッケージの設定
+** direxでoすると、関連付けされたソフトで開く
+** 登録済みフォルダとカレントディレクトリをExplorerで開くランチャ
 * Inbox
 ** TODO footableとmedia queryの同期が取れていない 			:bug:
    
