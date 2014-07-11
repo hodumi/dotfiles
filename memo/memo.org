@@ -8,6 +8,7 @@
 ** direxでoすると、関連付けされたソフトで開く
 ** 登録済みフォルダとカレントディレクトリをExplorerで開くランチャ
 ** [[http://sakito.jp/emacs/emacsshell.html][Emacs 上で快適に Bash や Zsh を利用する設定]]
+** [[http://www.bookshelf.jp/][Emacs電子書棚]]
 * Inbox
 ** TODO footableとmedia queryの同期が取れていない 			:bug:
    
