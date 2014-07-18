@@ -17,3 +17,6 @@
 
 ;; yes、noの入力をy、nに変更
 (fset 'yes-or-no-p 'y-or-n-p)
+
+;; バッファ自動再読み込み
+(global-auto-revert-mode 1)
