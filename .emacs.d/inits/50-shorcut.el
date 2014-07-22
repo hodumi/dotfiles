@@ -1,5 +1,17 @@
 ; -*- Mode: Emacs-Lisp ; Coding: utf-8 -*-
 
-;; (defun cygstart (args)
-;;   (shell-command (concat "cygstart " args)))
+(require 'cl)
 
+(defun cygstart (args)
+  "Execute \"cygstart\"."
+  (interactive "Mcommand: ")
+  (shell-command (concat "cygstart" " " args)))
+
+
+(defun shortcut-list ()
+  (interactive )
+  (save-current-buffer
+    (let ((buffer (generate-new-buffer "*shortcut*")))
+      (set-buffer buffer)
+      
+      )))
