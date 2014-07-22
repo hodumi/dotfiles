@@ -21,5 +21,5 @@
 ;; バッファ自動再読み込み
 (global-auto-revert-mode 1)
 
-;; ファイル名保管時大文字小文字を区別しない
+;; ファイル名補完時大文字小文字を区別しない
 (setq completion-ignore-case t)
