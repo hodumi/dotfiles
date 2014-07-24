@@ -12,6 +12,7 @@
 ** [[http://qiita.com/itiut@github/items/a2a04124cc6d7c3eb766][gitプロジェクトのルートディレクトリ名を取得する]]
    
    [[file:c:/xampp/htdocs/php/yoyaku/status3.php::if(%20$i%20%3D%3D%200%20&&%20$h%20%3D%3D%2011)%20{%20$clssf%3D'%20prepare%20span_ab'%3B%20$clsss%3D'%20prepare%20span_abc'%3B%20}][file:c:/xampp/htdocs/php/yoyaku/status3.php::if( $i == 0 && $h == 11) { $clssf=' prepare span_ab'; $clsss=' prepare span_abc'; }]]
+** [[http://photoshopvip.net/archives/66089][テクスチャ集]]
 * Inbox
 ** TODO footableとmedia queryの同期が取れていない 			:bug:
    
