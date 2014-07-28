@@ -5,7 +5,6 @@
 ** 魔法陣作成ツール
 - JavaScript + SVG
   - SVG: ベジェ曲線に沿わせて文字の描画が出来る。
-** direxでoすると、関連付けされたソフトで開く
 ** 登録済みフォルダとカレントディレクトリをExplorerで開くランチャ
 ** [[http://sakito.jp/emacs/emacsshell.html][Emacs 上で快適に Bash や Zsh を利用する設定]]
 ** [[http://www.bookshelf.jp/][Emacs電子書棚]]
@@ -14,12 +13,4 @@
    [[file:c:/xampp/htdocs/php/yoyaku/status3.php::if(%20$i%20%3D%3D%200%20&&%20$h%20%3D%3D%2011)%20{%20$clssf%3D'%20prepare%20span_ab'%3B%20$clsss%3D'%20prepare%20span_abc'%3B%20}][file:c:/xampp/htdocs/php/yoyaku/status3.php::if( $i == 0 && $h == 11) { $clssf=' prepare span_ab'; $clsss=' prepare span_abc'; }]]
 ** [[http://photoshopvip.net/archives/66089][テクスチャ集]]
 * Inbox
-** TODO footableとmedia queryの同期が取れていない 			:bug:
-   
-   [[file:c:/xampp/htdocs/php/test/resp_inputcon/index.php::})%3B][file:c:/xampp/htdocs/php/test/resp_inputcon/index.php::});]]
-** TODO 縞模様が崩れる
-原因：footableで拡大表示時、trが挿入される。
-   
-[[file:c:/xampp/htdocs/php/test/resp_inputcon/sass/inputcon.scss::/*******************************************************************************]]
-** TODO [[http://shibayu36.hatenablog.com/entry/2013/01/26/194741][direx-project.elをインストールする。]]
 ** TODO MinecraftにSmart Movingを導入する。
