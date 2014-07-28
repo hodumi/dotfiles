@@ -12,6 +12,7 @@
     popwin
     direx
 
+    undo-tree
     magit
 
     tabbar
