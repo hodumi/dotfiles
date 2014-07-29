@@ -7,7 +7,6 @@
     (set-buffer-process-coding-system 'sjis 'sjis)
     ))
 
-
 (defun mcf-run-client ()
   (interactive)
   (mcf-run-task "mcf:run-client" buffer-name "runClient" t))
