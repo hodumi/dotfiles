@@ -1,4 +1,4 @@
-
+; -*- Mode: Emacs-Lisp ; Coding: utf-8 -*-
 
 (defun mcf-run-task (name buffer-or-name command switch-p)
   (let ((default-directory (locate-dominating-file default-directory "gradlew")))
