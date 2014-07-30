@@ -9,4 +9,5 @@
 
 (defun mcf-run-client ()
   (interactive)
-  (mcf-run-task "mcf:run-client" buffer-name "runClient" t))
+  (mcf-run-task "mcf:run-client" "mcf-client" "runClient" t))
+
