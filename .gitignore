@@ -1,6 +1,7 @@
 # emacs一時ファイル
 *~
 \#*\#
+server/
 # ローカル設定フォルダ
 /local/
 !.gitkeep
