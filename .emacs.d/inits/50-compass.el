@@ -8,4 +8,5 @@
 
 (defun compass-watch ()
   (interactive)
-  (compass-command "compass" "compass" "watch"))
+  (compass-command "compass" "*compass-w*" "watch")
+  )
