@@ -4,7 +4,7 @@
   (let ((default-directory (locate-dominating-file default-directory "config.rb")))
     (start-process-shell-command name buffer-or-name (concat "compass " command))
     (switch-to-buffer buffer-or-name)
-    (set-buffer-process-coding-system 'sjis 'sjis)
+;    (set-buffer-process-coding-system 'sjis 'sjis) 
     ))
 
 (defun compass-watch ()
