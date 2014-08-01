@@ -16,3 +16,4 @@
 ** [[http://www.catananytime.com/][HTML5製CATAN]]
 * Inbox
 ** TODO MinecraftにSmart Movingを導入する。
+** TODO [[https://sites.google.com/site/craftware/keyhac][keyhacでCapsLock->Ctrl、無変換->Altにする。]] [[http://d.hatena.ne.jp/mobitan/20081124/1227789667][キーコードとキーの対応表]]
