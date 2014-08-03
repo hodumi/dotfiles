@@ -8,3 +8,6 @@
 
 
 (load-theme 'tango-dark)
+
+;; generic-x追加
+(require 'generic-x)
