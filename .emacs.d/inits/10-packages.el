@@ -7,7 +7,8 @@
 (defvar my/packages
   '(popup
     auto-complete
-    anything
+;    anything
+    helm
     rainbow-mode
     popwin
     direx
