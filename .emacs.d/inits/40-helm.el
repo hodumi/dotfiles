@@ -13,6 +13,10 @@
 (define-key global-map (kbd "C-x b")   'helm-buffers-list)
 
 
+;; helm-ff-file(ファイルの文字色)を変える。
+;; set-face-background
+;; set-face-foreground
+
 ;;; タブ補完
 ;; For find-file etc.
 ;(define-key helm-read-file-map (kbd "TAB") 'helm-execute-persistent-action)
