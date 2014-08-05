@@ -17,6 +17,8 @@
 ;; set-face-background
 ;; set-face-foreground
 
+;(set-face-foreground 'helm-ff-file "#f0f0f0")
+
 ;;; タブ補完
 ;; For find-file etc.
 ;(define-key helm-read-file-map (kbd "TAB") 'helm-execute-persistent-action)
