@@ -13,11 +13,11 @@
 (define-key global-map (kbd "C-x b")   'helm-buffers-list)
 
 
-;; helm-ff-file(ファイルの文字色)を変える。
 ;; set-face-background
 ;; set-face-foreground
 
-;(set-face-foreground 'helm-ff-file "#f0f0f0")
+;; helm-ff-file(ファイルの文字色)を変える。
+(set-face-foreground 'helm-ff-file "#f0f0f0")
 
 ;;; タブ補完
 ;; For find-file etc.
