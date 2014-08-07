@@ -11,6 +11,7 @@
 (add-to-list 'auto-mode-alist '("\\.djhtml\\'" . web-mode))
 (add-to-list 'auto-mode-alist '("\\.css\\'" . web-mode))
 (add-to-list 'auto-mode-alist '("\\.php\\'" . web-mode))
+(add-to-list 'auto-mode-alist '("\\.ctp\\'" . web-mode))
 
 (add-hook 'web-mode-hook #'(lambda ()
 			     (rainbow-mode)
