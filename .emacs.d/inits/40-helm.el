@@ -17,7 +17,11 @@
 ;; set-face-foreground
 
 ;; helm-ff-file(ファイルの文字色)を変える。
-(set-face-foreground 'helm-ff-file "#f0f0f0")
+(set-face-attribute
+ 'helm-ff-file nil
+ :family (face-attribute 'default :family)
+ :foreground (face-attribute 'default :foreground)
+ )
 
 ;;; タブ補完
 ;; For find-file etc.
