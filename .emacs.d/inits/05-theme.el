@@ -11,3 +11,6 @@
 
 ;; generic-x追加
 (require 'generic-x)
+
+;; 色の確認
+; M-x list-faces-display
