@@ -1,6 +1,7 @@
 ; -*- Mode: Emacs-Lisp ; Coding: utf-8 -*-
 
 (require 'tabbar)
+(require 'cl-lib)
 (tabbar-mode 1)
 
 
@@ -9,15 +10,17 @@
 (global-set-key (kbd "<C-S-tab>") 'tabbar-backward-tab)
 
 
-;; グループ化関数
+;; グループ化関数(作成途中)
 (defun my-tabbar-buffer-group (buffer)
   (with-current-buffer (get-buffer buffer)
+    ;; .*Controller.*\.ctp => Controller
+    ;; .*\.php => PHP
+    ;; .*\.scss => SASS
+    ;; \*.*\* => Emacs
     (cond
-     ;; .*Controller.*\.ctp => Controller
-     ;; .*\.php => PHP
-     ;; .*\.scss => SASS
-     ;; \*.*\* => Emacs
-   ))
+     ((string-match "\*.*\*" (buffer-name)) '("Emacs"))
+     (t '("Others")))
+    ))
 
 (setq tabbar-buffer-groups-function 'my-tabbar-buffer-group)
 
@@ -49,7 +52,7 @@ are always included."
         tabs
       (cons cur-buf tabs))))
 
-(setq tabbar-buffer-list-function 'my-tabbar-buffer-list)
+ (setq tabbar-buffer-list-function 'my-tabbar-buffer-list)
 
 
 ;; 左に表示されるボタンを無効化
