@@ -9,6 +9,18 @@
 (global-set-key (kbd "<C-S-tab>") 'tabbar-backward-tab)
 
 
+;; グループ化関数
+(defun my-tabbar-buffer-group (buffer)
+  (with-current-buffer (get-buffer buffer)
+    (cond
+     ;; .*Controller.*\.ctp => Controller
+     ;; .*\.php => PHP
+     ;; .*\.scss => SASS
+     ;; \*.*\* => Emacs
+   ))
+
+(setq tabbar-buffer-groups-function 'my-tabbar-buffer-group)
+
 ;; グループ化しない
 (setq tabbar-buffer-groups-function nil)
 
