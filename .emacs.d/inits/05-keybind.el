@@ -8,3 +8,6 @@
 
 ; M-nを「一画面下に移動」に変更
 (define-key global-map "\M-n" 'scroll-up-command)
+
+; C-S-kを「一行削除」に変更
+(define-key global-map "\C-K" 'kill-whole-line)
