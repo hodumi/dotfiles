@@ -21,7 +21,6 @@
      ((string-match "\*.*\*" (buffer-name)) '("Emacs"))
      (t '("Others")))
     ))
-
 (setq tabbar-buffer-groups-function 'my-tabbar-buffer-group)
 
 ;; グループ化しない
