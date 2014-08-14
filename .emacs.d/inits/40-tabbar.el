@@ -17,7 +17,7 @@
      ;; .*\.php => PHP
      ;; .*\.scss => SASS
      ;; \*.*\* => Emacs
-   ))
+   )))
 
 (setq tabbar-buffer-groups-function 'my-tabbar-buffer-group)
 
