@@ -10,6 +10,8 @@
 ;    anything
     helm
     rainbow-mode
+    rainbow-delimiters
+    highlight-indentation
     popwin
     direx
 
