@@ -24,5 +24,5 @@
 ;; ファイル名補完時大文字小文字を区別しない
 (setq completion-ignore-case t)
 
-;; キー入力時、マウスカーソルを右上に移動
-(mouse-avoidance-mode 'banish)
+;; キー入力時、マウスカーソルを左上に移動(一時的)
+(mouse-avoidance-mode 'exile)
