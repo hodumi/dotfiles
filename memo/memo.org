@@ -17,3 +17,4 @@
 * Inbox
 ** TODO MinecraftにSmart Movingを導入する。
 ** TODO newsticker(RSS Reader)の検証
+** TODO highlight-indentation導入すること
