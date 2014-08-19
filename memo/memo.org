@@ -16,4 +16,4 @@
 ** [[http://www.catananytime.com/][HTML5製CATAN]]
 * Inbox
 ** TODO MinecraftにSmart Movingを導入する。
-
+** TODO newsticker(RSS Reader)の検証
