@@ -14,7 +14,9 @@
 ** [[http://photoshopvip.net/archives/66089][テクスチャ集]]
 ** [[http://d.hatena.ne.jp/kiwanami/20110723/1311434175][Emacs用カレンダー(GoogleCalendar対応)]]
 ** [[http://www.catananytime.com/][HTML5製CATAN]]
+** cakephp上で、<prefix> v でViewファイル、<prefix> cでControlerファイル, <prefix> mでモデルファイルを開けたらいいな [[http://shigemk2.hatenablog.com/entry/20110816/1313473346][ネーミング参考]]
 * Inbox
 ** TODO MinecraftにSmart Movingを導入する。
 ** TODO newsticker(RSS Reader)の検証
 ** TODO highlight-indentation導入すること
+   
