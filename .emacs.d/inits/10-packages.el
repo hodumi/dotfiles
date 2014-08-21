@@ -22,6 +22,7 @@
     powerline
     yascroll
 
+    w3m
     org
     web-mode
     sass-mode
