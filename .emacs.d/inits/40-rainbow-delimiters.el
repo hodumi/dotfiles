@@ -7,9 +7,13 @@
 (set-face-attribute
  'rainbow-delimiters-mismatched-face nil
  :foreground "#e60033"
- :height 1.5)
+ :height 1.5
+ :weight 'bold
+ )
 
 (set-face-attribute
  'rainbow-delimiters-unmatched-face nil
  :foreground "#e60033"
- :height 1.5)
+ :height 1.5
+ :weight 'bold
+ )
