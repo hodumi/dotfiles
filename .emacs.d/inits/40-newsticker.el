@@ -1,5 +1,20 @@
 ; -*- Mode: Emacs-Lisp ; Coding: utf-8 -*-
 
 (setq newsticker-url-list
-      '(("Slashdot" "http://rss.slashdot.org/Slashdot/slashdot")))
+      '(;("Slashdot" "http://rss.slashdot.org/Slashdot/slashdot")
+	("Slashdot JP" "http://slashdot.jp/slashdotjp.rss")
+	("GIGAZINE" "http://feed.rssad.jp/rss/gigazine/rss_2.0")
+	("らばQ" "http://labaq.com/index.rdf")
+	("MOON CHRONICLE" "http://miruto.org/atom.xml")
+	("まめなはうす" "http://homepage1.nifty.com/maname/index.rdf")
+	("虚構新聞" "http://kyoko-np.net/index.xml")
+	("(*ﾟ∀ﾟ)ゞカガクニュース隊" "http://www.scienceplus2ch.com/index.rdf")
+	("IDEA IDEA" "http://www.ideaxidea.com/feed")
+	("＝ねこメモ～" "http://nekomemo.com/index.rdf")
+	("ぁゃιぃ(*ﾟーﾟ)NEWS 2nd" "http://ayacnews2nd.com/index.rdf")
+	("2chコピペ保存道場" "http://2chcopipe.com/index.rdf")
+	("嘘は無味無臭の劇薬" "http://blog.livedoor.jp/drazuli/index.rdf")
+	("お料理速報" "http://oryouri.2chblog.jp/index.rdf")
+	("大艦巨砲主義!" "http://military38.com/index.rdf")
+	))
 (setq newsticker-html-renderer 'w3m-region)
