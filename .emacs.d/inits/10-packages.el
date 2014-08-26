@@ -5,7 +5,8 @@
 
 ;; インストールするパッケージ
 (defvar my/packages
-  '(popup
+  '(auto-install
+    popup
     auto-complete
 ;    anything
     helm
