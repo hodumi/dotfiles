@@ -14,7 +14,8 @@
     highlight-indentation
     popwin
     direx
-
+    visual-regexp
+    
     undo-tree
     magit
 
