@@ -13,6 +13,10 @@
 ;; M-nを「一画面下に移動」に変更
 (define-key global-map (kbd "M-n") 'scroll-up-command)
 
+;; 元の「一画面上下移動」を無効化
+(define-key global-map (kbd "M-v") nil)
+(define-key global-map (kbd "C-v") nil)
+
 ;; C-S-kを「一行削除」に変更
 (define-key global-map (kbd "C-S-k") 'kill-whole-line)
 
