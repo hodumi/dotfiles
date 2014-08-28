@@ -15,6 +15,10 @@
 ** [[http://d.hatena.ne.jp/kiwanami/20110723/1311434175][Emacs用カレンダー(GoogleCalendar対応)]]
 ** [[http://www.catananytime.com/][HTML5製CATAN]]
 ** cakephp上で、<prefix> v でViewファイル、<prefix> cでControlerファイル, <prefix> mでモデルファイルを開けたらいいな [[http://shigemk2.hatenablog.com/entry/20110816/1313473346][ネーミング参考]]
+** [[http://fightcodegame.com/][プログラマブルロボット対戦ゲーム]]
+** [[https://note.mu/teramotodaiki/n/nfa8d3d54fdf7][ハックするしかないRPG]]
+** [[http://plus.appgiga.jp/masatolan/2014/08/27/53422/][ソースコード解析によるプログラミング学習サービスまとめ]]   
+** [[http://d.hatena.ne.jp/aike/20120723][竹内関数から音楽生成]]
 * Inbox
 ** TODO MinecraftにSmart Movingを導入する。
 ** TODO newsticker(RSS Reader)の検証
