@@ -16,6 +16,7 @@
     popwin
     direx
     visual-regexp
+    flycheck
     
     undo-tree
     magit
