@@ -29,6 +29,6 @@
 ;; For helm-find-files etc.
 ;(define-key helm-find-files-map (kbd "TAB") 'helm-execute-persistent-action)
 
-(custom-set-variables '(helm-ff-auto-update-initial-value nil))
-;; TABで任意補完。選択肢が出てきたらC-nやC-pで上下移動してから決定することも可能
-(define-key helm-c-read-file-map (kbd "TAB") 'helm-execute-persistent-action)
+;; (custom-set-variables '(helm-ff-auto-update-initial-value nil))
+;; ;; TABで任意補完。選択肢が出てきたらC-nやC-pで上下移動してから決定することも可能
+;; (define-key helm-c-read-file-map (kbd "TAB") 'helm-execute-persistent-action)
