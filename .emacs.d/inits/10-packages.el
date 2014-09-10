@@ -5,7 +5,10 @@
 
 ;; インストールするパッケージ
 (defvar my/packages
-  '(auto-install
+  '(
+    bind-key
+    use-package
+    auto-install
     popup
     auto-complete
 ;    anything

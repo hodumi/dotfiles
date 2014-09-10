@@ -3,6 +3,7 @@
 
 # TODO
 * Emacsで、MIGEMO入れる。
+* **require等の設定をuse-packageに置き換える**
 * 10-package.elに記載せずとも自動インストールされる方法を考える。
     + 3n-\*.el,4n-\*.elの*をインストールさせる？
 
