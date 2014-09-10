@@ -1,4 +1,5 @@
 elpa/
+server/
 auto-save-list/
 eshell/
 newsticker/
@@ -6,4 +7,5 @@ tramp
 ac-comphist.dat
 bookmarks
 url/
+tutorial/
 !inits/
