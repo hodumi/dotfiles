@@ -1,11 +1,12 @@
 ; -*- Mode: Emacs-Lisp ; Coding: utf-8 -*-
 
-(require 'cl)
+(require 'cl-lib)
 
 (defun cygstart (args)
   "Execute \"cygstart\"."
   (interactive "Mcommand: ")
-  (shell-command (concat "cygstart" " " args)))
+  (shell-command (concat "cygstart" " " args))
+  (message (concat "cygstart: " args)))
 
 
 (defun shortcut-list ()
