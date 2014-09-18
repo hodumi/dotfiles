@@ -21,3 +21,20 @@
 ;; C-S-kを「一行削除」に変更
 (bind-key (kbd "C-S-k") 'kill-whole-line)
 
+
+;; C-:, C-\, C-/, C-]でカーソル上下左右移動
+(bind-key (kbd "C-/") 'backward-char)
+(bind-key (kbd "C-]") 'forward-char)
+(bind-key (kbd "C-:") 'previous-line)
+(bind-key (kbd "C-\\") 'next-line)
+
+;; M-/, M-]で1文字分左右移動
+(bind-key (kbd "M-/") 'backward-word)
+(bind-key (kbd "M-]") 'forward-word)
+
+;; M-:, M-\で1画面分上下移動
+(bind-key (kbd "M-:") 'scroll-down-command)
+(bind-key (kbd "M-\\") 'scroll-up-command)
+
+;; <C-return>で改行+インデント
+(bind-key (kbd "<C-return>") 'newline-and-indent)
