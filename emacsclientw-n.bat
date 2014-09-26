@@ -1,0 +1,1 @@
+emacsclientw -n %1
