@@ -16,3 +16,8 @@
       (set-buffer buffer)
       
       )))
+
+(defun open-directory ()
+  "Open the Current Directory by the Explorer"
+  (interactive)
+  (cygstart "."))
