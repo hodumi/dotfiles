@@ -14,3 +14,16 @@
 
 ;; 色の確認
 ; M-x list-faces-display
+
+(defface hlline-face
+  '((((class color)
+      (background dark))
+     (:background "#303030"))
+    (((class color)
+      (background light))
+     (:background "#CC0066"))
+    (t
+     ()))
+  "*Face used by hl-line.")
+(setq hl-line-face 'hlline-face)
+(global-hl-line-mode)
