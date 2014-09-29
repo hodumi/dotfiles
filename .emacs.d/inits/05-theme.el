@@ -15,6 +15,7 @@
 ;; 色の確認
 ; M-x list-faces-display
 
+;; カーソルのある行を暗くする。
 (defface hlline-face
   '((((class color)
       (background dark))
