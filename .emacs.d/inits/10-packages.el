@@ -21,7 +21,8 @@
     visual-regexp
     flycheck
     comment-dwim-2
-    
+
+    bm
     undo-tree
     magit
 
