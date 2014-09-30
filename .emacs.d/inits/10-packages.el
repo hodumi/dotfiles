@@ -20,6 +20,7 @@
     direx
     visual-regexp
     flycheck
+    comment-dwim-2
     
     undo-tree
     magit
