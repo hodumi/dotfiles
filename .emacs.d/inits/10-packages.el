@@ -12,6 +12,7 @@
     popup
     auto-complete
 ;    anything
+
     helm
     rainbow-mode
     rainbow-delimiters
@@ -23,9 +24,11 @@
     comment-dwim-2
 
     bm
+    point-undo
     undo-tree
     magit
 
+    smooth-scroll
     tabbar
     powerline
     yascroll
@@ -37,6 +40,8 @@
     scss-mode
 
     markdown-mode
+
+    google-this
     ))
 
 ;; インストールしていなければ、インストールする
