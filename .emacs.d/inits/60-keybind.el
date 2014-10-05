@@ -21,6 +21,8 @@
 ;; C-S-kを「一行削除」に変更
 (bind-key (kbd "C-S-k") 'kill-whole-line)
 
+;; C-x C-gで「行ジャンプ」に変更
+(bind-key (kbd "C-x C-g") 'goto-line)
 
 ;; C-:, C-\, C-/, C-]でカーソル上下左右移動
 (bind-key (kbd "C-/") 'backward-char)
