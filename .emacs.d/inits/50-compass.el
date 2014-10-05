@@ -4,7 +4,7 @@
   (let ((default-directory (if directory
 			       directory
 			     (locate-dominating-file default-directory "config.rb"))))
-    (start-process-shell-command "compass" "*compass*" (concat "compass " command))
+    (start-process-shell-command "compass" "*compass*" (concat "cmd /c \"compass " command "\""))
     (switch-to-buffer "*compass*")
 ;    (set-buffer-process-coding-system 'sjis 'sjis) 
     ))
