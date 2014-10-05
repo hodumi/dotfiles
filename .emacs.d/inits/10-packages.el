@@ -13,10 +13,13 @@
     auto-complete
 ;    anything
 
+    
     helm
     rainbow-mode
     rainbow-delimiters
     highlight-indentation
+    hl-line+
+    
     popwin
     direx
     visual-regexp
