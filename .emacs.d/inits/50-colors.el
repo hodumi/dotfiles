@@ -4,7 +4,7 @@
 (defun rgb->r-g-b (rgb)
    
   )
-
+  
 
 ;; RGB表示
 (defun message-rgb (r g b)
@@ -14,24 +14,16 @@
 
 
 ;; 補色(illustrator流)
-(defun complementary-color-for-illustrator (r g b)
+(defun complementary-color (r g b)
   (let ((offset (+ (max r g b) (min r g b))))
     (list (- offset r) (- offset g) (- offset b))))
-
-;; 補色
-(defun complementary-color (r g b)
-  (interactive "nR: \nnG: \nnB: ")
-  (apply #'message-rgb (complementary-color-for-illustrator r g b)))
 
 
 ;; 反転色
 (defun inversion-color (r g b)
-  (interactive "nR: \nnG: \nnB: ")
-  (apply #'message-rgb (list (- 255 r)
-			     (- 255 g)
-			     (- 255 b))))
-
-
+  (list (- 255 r)
+	(- 255 g)
+	(- 255 b)))
 
 
 
