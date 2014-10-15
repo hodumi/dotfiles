@@ -1,11 +1,5 @@
 ; -*- Mode: Emacs-Lisp ; Coding: utf-8 -*-
 
-;;; 16進数 -> 10進数のリスト
-(defun rgb->r-g-b (rgb)
-   
-  )
-  
-
 ;; RGB表示
 (defun message-rgb (r g b)
   (message (format "R:%s G:%s B:%s" r g b))
