@@ -1,5 +1,7 @@
 ; -*- Mode: Emacs-Lisp ; Coding: utf-8 -*-
 
+;; C-tを無効化
+(unbind-key (kbd "C-t"))
 
 ;; C-hをBackspaceに変更
 (keyboard-translate ?\C-h ?\C-?)
