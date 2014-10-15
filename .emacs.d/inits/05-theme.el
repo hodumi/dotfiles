@@ -19,12 +19,10 @@
 (defface hlline-face
   '((((class color)
       (background dark))
-     (:background "#303030"))
-    (((class color)
-      (background light))
-     (:background "#CC0066"))
-    (t
-     ()))
+     (:background "#303030" :underline "#2e3436"))
+    )
   "*Face used by hl-line.")
 (setq hl-line-face 'hlline-face)
 (global-hl-line-mode)
+
+; #2e3436
