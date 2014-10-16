@@ -28,3 +28,9 @@
 
 ;; C-x C-gで「行ジャンプ」に変更
 (bind-key (kbd "C-x C-g") 'goto-line)
+
+;; C-s -> helm-swoop
+(bind-key (kbd "C-s") 'helm-swoop)
+
+;; C-x kと間違えやすいキーバインドを削除
+(unbind-key (kbd "C-x C-k <RET>")) 
