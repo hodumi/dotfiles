@@ -19,6 +19,8 @@
 ** [[https://note.mu/teramotodaiki/n/nfa8d3d54fdf7][ハックするしかないRPG]]
 ** [[http://plus.appgiga.jp/masatolan/2014/08/27/53422/][ソースコード解析によるプログラミング学習サービスまとめ]]   
 ** [[http://d.hatena.ne.jp/aike/20120723][竹内関数から音楽生成]]
+** [[http://lambda.bugyo.tk/progra_marugakusei.txt][プログラマは○学生]]
+魔法＝プログラムの世界で、魔法を使うためラムダ計算を学ぶ少女達の小説
 * Inbox
 ** TODO MinecraftにSmart Movingを導入する。
 ** TODO newsticker(RSS Reader)の検証
