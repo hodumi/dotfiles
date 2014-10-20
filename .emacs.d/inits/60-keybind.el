@@ -23,8 +23,9 @@
 ;; C-S-kを「一行削除」に変更
 (bind-key (kbd "C-S-k") 'kill-whole-line)
 
-;; M-hを「後ろを一文削除」に変更
-(bind-key (kbd "M-h") 'backward-kill-word)
+;; M-d, M-hを1単語ごとに前後削除に変更
+(bind-key (kbd "M-d") 'delete-word)
+(bind-key (kbd "M-h") 'backward-delete-word)
 
 ;; C-x C-gで「行ジャンプ」に変更
 (bind-key (kbd "C-x C-g") 'goto-line)
