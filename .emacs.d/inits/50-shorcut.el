@@ -14,13 +14,6 @@
        (w32-shell-execute "open" "explorer.exe" (concat "/select," dos-path))))))
 
 
-(defun cygstart (args)
-  "Execute \"cygstart\"."
-  (interactive "Mcommand: ")
-  (shell-command (concat "cygstart" " " args))
-  (message (concat "cygstart: " args)))
-
-
 (defun shortcut-list ()
   (interactive )
   (save-current-buffer
@@ -28,8 +21,3 @@
       (set-buffer buffer)
       
       )))
-
-(defun open-directory ()
-  "Open the Current Directory by the Explorer"
-  (interactive)
-  (cygstart "."))
