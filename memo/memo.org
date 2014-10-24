@@ -19,6 +19,7 @@
 ** [[http://d.hatena.ne.jp/aike/20120723][竹内関数から音楽生成]]
 ** [[http://lambda.bugyo.tk/progra_marugakusei.txt][プログラマは○学生]]
 魔法＝プログラムの世界で、魔法を使うためラムダ計算を学ぶ少女達の小説
+** Growl + Emacs 何かできる?   
 * Inbox
 ** TODO MinecraftにSmart Movingを導入する。
 ** TODO newsticker(RSS Reader)の検証
