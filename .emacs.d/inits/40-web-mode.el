@@ -1,3 +1,4 @@
+
 ; -*- Mode: Emacs-Lisp ; Coding: utf-8 -*-
 
 (require 'web-mode)
@@ -15,4 +16,5 @@
 
 (add-hook 'web-mode-hook #'(lambda ()
 			     (rainbow-mode)
-			     (auto-complete-mode)))
+			     (rainbow-delimiters-mode)))
+
