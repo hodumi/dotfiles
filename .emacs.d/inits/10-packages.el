@@ -24,7 +24,7 @@
     direx
     visual-regexp
     flycheck
-    comment-dwim-2
+;    comment-dwim-2
 
     bm
     point-undo
@@ -37,7 +37,7 @@
     powerline
     yascroll
 
-    w3m
+;   w3m
     org
     web-mode
     sass-mode
