@@ -7,7 +7,6 @@
   - SVG: ベジェ曲線に沿わせて文字の描画が出来る。
 ** 登録済みフォルダとカレントディレクトリをExplorerで開くランチャ
 ** [[http://sakito.jp/emacs/emacsshell.html][Emacs 上で快適に Bash や Zsh を利用する設定]]
-** [[http://www.bookshelf.jp/][Emacs電子書棚]]
 ** [[http://qiita.com/itiut@github/items/a2a04124cc6d7c3eb766][gitプロジェクトのルートディレクトリ名を取得する]]
 ** [[http://photoshopvip.net/archives/66089][テクスチャ集]]
 ** [[http://d.hatena.ne.jp/kiwanami/20110723/1311434175][Emacs用カレンダー(GoogleCalendar対応)]]
@@ -25,4 +24,4 @@
 ** TODO MinecraftにSmart Movingを導入する。
 ** TODO newsticker(RSS Reader)の検証
 ** TODO highlight-indentation導入すること
-   
+** TODO [[https://github.com/chuntaro/NTEmacs64][ntemacs 24.4]]
