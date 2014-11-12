@@ -29,3 +29,4 @@
 (if (not (equal (init-loader-error-log) "")) 
     (init-loader-show-log))
 
+(put 'upcase-region 'disabled nil)
