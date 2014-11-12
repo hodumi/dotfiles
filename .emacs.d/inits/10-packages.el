@@ -24,7 +24,7 @@
     direx
     visual-regexp
     flycheck
-;    comment-dwim-2
+    comment-dwim-2
 
     bm
     point-undo
