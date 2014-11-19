@@ -45,6 +45,7 @@
 
     markdown-mode
 
+    mew
     google-this
     ))
 
