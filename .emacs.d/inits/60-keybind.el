@@ -27,8 +27,8 @@
 (bind-key (kbd "M-d") 'delete-word)
 (bind-key (kbd "M-h") 'backward-delete-word)
 
-;; C-x C-gで「行ジャンプ」に変更
-(bind-key (kbd "C-x C-g") 'goto-line)
+;; C-c C-gで「行ジャンプ」に変更
+(bind-key (kbd "C-c C-g") 'goto-line)
 
 ;; C-s -> helm-swoop
 (bind-key (kbd "C-s") 'helm-swoop)
