@@ -25,7 +25,8 @@
     visual-regexp
     flycheck
     comment-dwim-2
-
+    helm-projectile
+    
     bm
     point-undo
     undo-tree
