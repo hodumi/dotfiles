@@ -46,6 +46,7 @@
 
     markdown-mode
 
+    slime
     mew
     google-this
     ))
