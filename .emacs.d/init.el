@@ -30,3 +30,4 @@
     (init-loader-show-log))
 
 (put 'upcase-region 'disabled nil)
+(put 'scroll-left 'disabled nil)
