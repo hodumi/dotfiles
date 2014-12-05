@@ -23,6 +23,5 @@
 ** [[http://qiita.com/advent-calendar/2014/emacs][Emacs Advent Calendar 2014]]
 * Inbox
 ** TODO MinecraftにSmart Movingを導入する。
-** TODO newsticker(RSS Reader)の検証
 ** TODO highlight-indentation導入すること
-** TODO [[https://github.com/chuntaro/NTEmacs64][ntemacs 24.4]]
+
