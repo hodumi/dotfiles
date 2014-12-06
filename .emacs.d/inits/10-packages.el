@@ -6,6 +6,7 @@
 ;; インストールするパッケージ
 (defvar my/packages
   '(
+    el-get
     bind-key
     use-package
     auto-install

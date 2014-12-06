@@ -13,3 +13,8 @@ tutorial/
 projectile-bookmarks.eld
 projectile.cache
 recentf
+
+*.elc
+.loaddefs.el
+el-get/packages/
+!.status.el
