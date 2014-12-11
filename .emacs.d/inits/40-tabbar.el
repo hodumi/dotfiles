@@ -78,6 +78,9 @@ are always included."
  :foreground (face-attribute 'mode-line :foreground)
  :box nil)
 
+;; マウスホイール操作無効
+(tabbar-mwheel-mode -1)
+
 ;; タブ間の間隔
 (setq tabbar-separator '(1.0))
 
