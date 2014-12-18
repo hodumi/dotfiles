@@ -6,8 +6,8 @@
 
 
 ;; Chrome ライクなタブ切り替えのキーバインド
-(global-set-key (kbd "<C-tab>") 'tabbar-forward-tab)
-(global-set-key (kbd "<C-S-tab>") 'tabbar-backward-tab)
+(bind-key* "<C-tab>" 'tabbar-forward-tab)
+(bind-key* "<C-S-tab>" 'tabbar-backward-tab)
 
 
 ;; グループ化関数(作成途中)
