@@ -24,7 +24,8 @@
 ** [[http://qiita.com/syohex/items/a669b35fbbfcdda0cbf2][gitの前回差分を見れる`git-gutter.el`]]
 ** なろうをEmacsで閲覧する?
 *** なろう側APIはある
+** Unityで安定したLisp処理系があったらな...
 * Inbox
 ** TODO MinecraftにSmart Movingを導入する。
 ** TODO highlight-indentation導入すること
-
+** TODO quelpa導入
