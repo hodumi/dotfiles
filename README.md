@@ -7,9 +7,17 @@
 * 10-package.elに記載せずとも自動インストールされる方法を考える。
     + 3n-\*.el,4n-\*.elの*をインストールさせる？
 
+
+
 # 注意点
 1. commitするときは、UTF-8で！
 2. 初期実行時に、`init-loader`を手動インストールする!
+
+# 登録済み独自パッケージ名
+```[Package BOF](http://www.java-conf.gr.jp/wg_bof/package/)
+jp.gr.java_conf.hodumi
+```
+
 
 # パッケージ紹介サイト
 * [年末emacs設定大掃除をして、これは捨てられないと思った設定書いてく](http://shibayu36.hatenablog.com/entry/2012/12/29/001418)
