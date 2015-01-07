@@ -25,6 +25,7 @@
 ** なろうをEmacsで閲覧する?
 *** なろう側APIはある
 ** Unityで安定したLisp処理系があったらな...
+** [[http://cashew.hatenablog.com/entry/2014/02/04/094515][フレームワーク集集]]  
 * Inbox
 ** TODO MinecraftにSmart Movingを導入する。
 ** TODO highlight-indentation導入すること
