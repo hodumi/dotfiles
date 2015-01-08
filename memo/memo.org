@@ -26,6 +26,8 @@
 *** なろう側APIはある
 ** Unityで安定したLisp処理系があったらな...
 ** [[http://cashew.hatenablog.com/entry/2014/02/04/094515][フレームワーク集集]]  
+** [[http://qiita.com/kenokabe/items/618692858044a89adbc0][関数型プログラミングに目覚めた！IQ145で美少女JKの先輩から受けた特訓 5日間]]
+** [[http://d.hatena.ne.jp/kinneko/20081004/p4][Git(ギット)勉強会メモ]]
 * Inbox
 ** TODO MinecraftにSmart Movingを導入する。
 ** TODO highlight-indentation導入すること
