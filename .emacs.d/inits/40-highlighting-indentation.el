@@ -1,6 +1,6 @@
 ; -*- Mode: Emacs-Lisp ; Coding: utf-8 -*-
 
-(require 'highlight-indentation)
+;; (require 'highlight-indentation)
 
 ;; (set-face-attribute 'highlight-indentation-face nil
 ;; 		    :foreground "#fff"
