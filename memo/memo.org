@@ -28,6 +28,9 @@
 ** [[http://cashew.hatenablog.com/entry/2014/02/04/094515][フレームワーク集集]]  
 ** [[http://qiita.com/kenokabe/items/618692858044a89adbc0][関数型プログラミングに目覚めた！IQ145で美少女JKの先輩から受けた特訓 5日間]]
 ** [[http://d.hatena.ne.jp/kinneko/20081004/p4][Git(ギット)勉強会メモ]]
+** (defmethod parse-file ((type (eql "lisp")) (pathname pathname)) () )
+   (defun read-file (pathname)
+	(parse-file (pathname-type pathname) pathname))
 * Inbox
 ** TODO MinecraftにSmart Movingを導入する。
 ** TODO highlight-indentation導入すること
