@@ -11,10 +11,10 @@
 (bind-key (kbd "C-d") 'delete-forward-char)
 
 ;; M-pを「一画面上に移動」に変更
-(bind-key (kbd "M-p") 'scroll-down-command)
+(bind-key* "M-p" 'scroll-down-command)
 
 ;; M-nを「一画面下に移動」に変更
-(bind-key (kbd "M-n") 'scroll-up-command)
+(bind-key* "M-n" 'scroll-up-command)
 
 ;; 元の「一画面上下移動」を無効化
 (unbind-key (kbd "M-v"))
