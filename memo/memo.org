@@ -37,3 +37,4 @@
 ** TODO MinecraftにSmart Movingを導入する。
 ** TODO highlight-indentation導入すること
 ** TODO quelpa導入
+** TODO clog.htmlをclog.markupに変更
