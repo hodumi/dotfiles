@@ -44,7 +44,8 @@
     web-mode
     sass-mode
     scss-mode
-
+    emmet-mode
+    
     markdown-mode
 
     slime
