@@ -38,7 +38,7 @@
     tabbar
     powerline
     yascroll
-
+    mwim
 ;   w3m
     org
     web-mode
