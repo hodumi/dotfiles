@@ -13,7 +13,7 @@
     popup
     auto-complete
 ;    anything
-
+    ac-emmet
     
     helm
     rainbow-mode
