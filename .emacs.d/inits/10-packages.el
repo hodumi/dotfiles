@@ -14,6 +14,7 @@
     auto-complete
 ;    anything
     ac-emmet
+
     
     helm
     rainbow-mode
@@ -39,6 +40,8 @@
     powerline
     yascroll
     mwim
+    minimap
+
 ;   w3m
     org
     web-mode
