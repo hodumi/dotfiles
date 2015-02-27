@@ -6,6 +6,8 @@
 ;; インストールするパッケージ
 (defvar my/packages
   '(
+    ddskk
+    ac-skk
     el-get
     bind-key
     use-package
