@@ -1,5 +1,6 @@
 ; -*- Mode: Emacs-Lisp ; Coding: utf-8 -*-
 
+(require 'el-get)
 
 (setq el-get-dir "~/.emacs.d/el-get/packages")
 
