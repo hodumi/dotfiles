@@ -50,6 +50,8 @@
     sass-mode
     scss-mode
     emmet-mode
+
+    vbasense
     
     markdown-mode
 
