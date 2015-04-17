@@ -12,7 +12,10 @@
 # 登録済み独自パッケージ名
 [Package BOF](http://www.java-conf.gr.jp/wg_bof/package/) : jp.gr.java_conf.hodumi
 
-
+# グローバルな.gitignore登録方法
+```
+$ git config --global --add core.excludesfile "%HOME%/.config/.git-global-ignore"
+```
 
 # `.emacs/inits/`以下のナンバリング方法
 
