@@ -23,6 +23,7 @@
     rainbow-delimiters
     highlight-indentation
     hl-line+
+    persp-mode
     
     popwin
     direx
@@ -58,6 +59,7 @@
     slime
     mew
     google-this
+    helm-themes
     ))
 
 ;; インストールしていなければ、インストールする
