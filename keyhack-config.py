@@ -46,3 +46,15 @@ def configure(keymap):
     keymap_global["O-RShift"] = "Space"
     # keymap_global["C-RShift"] = "C-Space"
   
+    keymap_global["RA-a"] = keymap.command_MouseMove(-10,0)
+    keymap_global["RA-d"] = keymap.command_MouseMove(10,0)
+    keymap_global["RA-w"] = keymap.command_MouseMove(0,-10)
+    keymap_global["RA-s"] = keymap.command_MouseMove(0,10)
+
+    keymap_global[ "D-RA-k" ] = keymap.command_MouseButtonDown('left')
+    keymap_global[ "U-RA-k" ] = keymap.command_MouseButtonUp('left')    
+    keymap_global[ "D-RA-p" ] = keymap.command_MouseButtonDown('right')
+    keymap_global[ "U-RA-p" ] = keymap.command_MouseButtonUp('right')
+
+    keymap_global[ "RA-o" ] = keymap.command_MouseWheel(1.0)
+    keymap_global[ "RA-l" ] = keymap.command_MouseWheel(-1.0)
