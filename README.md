@@ -8,7 +8,13 @@
 # 注意点
 1. commitするときは、UTF-8で！
 2. 初期実行時に、`init-loader`を手動インストールする!
-
+3. `edbi`使用には、Perlのパッケージが必要
+   Windows用Perl：[Active Perl](http://www.activestate.com/activeperl)
+   コマンド：```
+   ppm install RPC-EPC-Service
+   ppm install DBD-SQLite
+   ```
+   
 # 登録済み独自パッケージ名
 [Package BOF](http://www.java-conf.gr.jp/wg_bof/package/) : jp.gr.java_conf.hodumi
 

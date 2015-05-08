@@ -60,6 +60,9 @@
     mew
     google-this
     helm-themes
+
+    edbi
+    edbi-sqlite
     ))
 
 ;; インストールしていなければ、インストールする
