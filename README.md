@@ -8,8 +8,8 @@
 # 注意点
 1. commitするときは、UTF-8で！
 2. 初期実行時に、`init-loader`を手動インストールする!
-3. `edbi`使用には、Perlのパッケージが必要
-   Windows用Perl：[Active Perl](http://www.activestate.com/activeperl)
+3. `edbi`使用には、Perlのパッケージが必要  
+   Windows用Perl：[Active Perl](http://www.activestate.com/activeperl)  
    コマンド：```
    ppm install RPC-EPC-Service
    ppm install DBD-SQLite
