@@ -32,7 +32,7 @@ def configure(keymap):
     # --------------------------------------------------------------------
 
     # 無変換->Alt
-    keymap.replaceKey( "(29)", "Alt" )
+    # keymap.replaceKey( "(29)", "Alt" )
 
     # 変換->Shift
     # keymap.replaceKey( "(28)", "Shift" )
@@ -46,7 +46,7 @@ def configure(keymap):
     keymap_global["O-RShift"] = "Space"
     # keymap_global["C-RShift"] = "C-Space"
 
-    # ユーザモディファイアキーの定義
+    # キーボードマウス
     keymap.defineModifier( 28, "User0" ) # 変換
     
     keymap_global["User0-s"] = keymap.command_MouseMove(-10,0)
@@ -61,3 +61,18 @@ def configure(keymap):
 
     keymap_global[ "User0-i" ] = keymap.command_MouseWheel(1.0)
     keymap_global[ "User0-k" ] = keymap.command_MouseWheel(-1.0)
+
+
+    # キーボードカーソル(HHK風)
+    keymap.defineModifier( 29, "User1" ) # 無変換
+
+    keymap_global["User1-(192)"] = "Up"
+    keymap_global["User1-(187)"] = "Left"
+    keymap_global["User1-(186)"] = "Right"
+    keymap_global["User1-(191)"] = "Down"
+
+    keymap_global[ "User1-i" ] = keymap.command_MouseWheel(1.0)
+    keymap_global[ "User1-k" ] = keymap.command_MouseWheel(-1.0)
+
+    keymap_global["User1-Tab"] = "Alt-Tab"
+    
