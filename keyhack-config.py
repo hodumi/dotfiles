@@ -66,13 +66,13 @@ def configure(keymap):
     # キーボードカーソル(HHK風)
     keymap.defineModifier( 29, "User1" ) # 無変換
 
-    keymap_global["User1-(192)"] = "Up"
-    keymap_global["User1-(187)"] = "Left"
-    keymap_global["User1-(186)"] = "Right"
-    keymap_global["User1-(191)"] = "Down"
+    keymap_global["User1-i"] = "Up"
+    keymap_global["User1-j"] = "Left"
+    keymap_global["User1-l"] = "Right"
+    keymap_global["User1-k"] = "Down"
 
-    keymap_global[ "User1-i" ] = keymap.command_MouseWheel(1.0)
-    keymap_global[ "User1-k" ] = keymap.command_MouseWheel(-1.0)
+    keymap_global[ "User1-User0-i" ] = keymap.command_MouseWheel(1.0)
+    keymap_global[ "User1-User0-k" ] = keymap.command_MouseWheel(-1.0)
 
     keymap_global["User1-Tab"] = "Alt-Tab"
     
