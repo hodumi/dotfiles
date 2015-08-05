@@ -63,13 +63,23 @@ def configure(keymap):
     keymap_global[ "User0-k" ] = keymap.command_MouseWheel(-1.0)
 
 
-    # キーボードカーソル(HHK風)
+    # キーボードカーソル
     keymap.defineModifier( 29, "User1" ) # 無変換
 
     keymap_global["User1-i"] = "Up"
     keymap_global["User1-j"] = "Left"
     keymap_global["User1-l"] = "Right"
     keymap_global["User1-k"] = "Down"
+
+    keymap_global["User1-S-i"] = "S-Up"
+    keymap_global["User1-S-j"] = "S-Left"
+    keymap_global["User1-S-l"] = "S-Right"
+    keymap_global["User1-S-k"] = "S-Down"
+
+    keymap_global["User1-C-i"] = "C-Up"
+    keymap_global["User1-C-j"] = "C-Left"
+    keymap_global["User1-C-l"] = "C-Right"
+    keymap_global["User1-C-k"] = "C-Down"
 
     keymap_global[ "User1-User0-i" ] = keymap.command_MouseWheel(1.0)
     keymap_global[ "User1-User0-k" ] = keymap.command_MouseWheel(-1.0)
