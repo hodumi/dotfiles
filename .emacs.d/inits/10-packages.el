@@ -44,6 +44,7 @@
     yascroll
     mwim
     minimap
+    open-junk-file
 
 ;   w3m
     org

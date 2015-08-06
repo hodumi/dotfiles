@@ -6,3 +6,4 @@
 # ローカル設定フォルダ
 /local/
 !.gitkeep
+/.emacs.d/junk/
