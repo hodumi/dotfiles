@@ -38,7 +38,6 @@
     undo-tree
     magit
 
-    ace-isearch
     smooth-scroll
     tabbar
     powerline
