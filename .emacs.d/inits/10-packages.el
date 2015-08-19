@@ -24,7 +24,8 @@
     highlight-indentation
     hl-line+
     persp-mode
-    
+    diminish
+
     popwin
     direx
     visual-regexp
