@@ -1,0 +1,4 @@
+-.git/
+-.emacs.d/elpa/
+-.emacs.d/backup/
+-.emacs.d/auto-save-list/
