@@ -1,5 +1,3 @@
-* Operation
-** 0100時頃の印刷データ(vn095p.vninit.)は、汎用紙で出力し、遅番の汎用紙置場のファイルに入れる。
 * New Ideas
 ** [[http://play.freeciv.org//][ブラウザ上のFreeCiv]]
 ** 魔法陣作成ツール
@@ -17,23 +15,17 @@
 ** [[http://plus.appgiga.jp/masatolan/2014/08/27/53422/][ソースコード解析によるプログラミング学習サービスまとめ]]   
 ** [[http://d.hatena.ne.jp/aike/20120723][竹内関数から音楽生成]]
 ** [[http://lambda.bugyo.tk/progra_marugakusei.txt][プログラマは○学生]]
-魔法＝プログラムの世界で、魔法を使うためラムダ計算を学ぶ少女達の小説
+   魔法＝プログラムの世界で、魔法を使うためラムダ計算を学ぶ少女達の小説
 ** Growl + Emacs 何かできる?   
 ** [[http://www.moongift.jp/2014/11/material-icons-%E3%83%9E%E3%83%86%E3%83%AA%E3%82%A2%E3%83%AB%E3%83%87%E3%82%B6%E3%82%A4%E3%83%B3%E5%90%91%E3%81%91%E3%81%AB%E4%BD%9C%E3%82%89%E3%82%8C%E3%81%9Fgoogle%E8%A3%BD%E3%82%A2%E3%82%A4/][Creative Commonsのアイコン集]]
 ** [[http://qiita.com/advent-calendar/2014/emacs][Emacs Advent Calendar 2014]]
 ** [[http://qiita.com/syohex/items/a669b35fbbfcdda0cbf2][gitの前回差分を見れる`git-gutter.el`]]
 ** なろうをEmacsで閲覧する?
-*** なろう側APIはある
-** Unityで安定したLisp処理系があったらな...
+- なろう側APIはある
+  - ランキング等のみで、ユーザ認証はないみたい
+** Unityで安定したLisp処理系があったらな
 ** [[http://cashew.hatenablog.com/entry/2014/02/04/094515][フレームワーク集集]]  
-** [[http://qiita.com/kenokabe/items/618692858044a89adbc0][関数型プログラミングに目覚めた！IQ145で美少女JKの先輩から受けた特訓 5日間]]
 ** [[http://d.hatena.ne.jp/kinneko/20081004/p4][Git(ギット)勉強会メモ]]
 ** (ASDF:SYSTEM-SOURCE-DIRECTORY :package-name)でpackage-nameのディレクトリを取得できる
 ** cl-hamlやcl-mustacheと言ったテンプレートエンジンがある
 * Inbox
-** TODO MinecraftにSmart Movingを導入する。
-** TODO highlight-indentation導入すること
-** TODO quelpa導入
-** TODO clog.htmlをclog.markupに変更
-** TODO clogにcl-fadを導入すること
-** TODO ChromeにPalettabを導入する

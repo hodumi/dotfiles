@@ -5,7 +5,7 @@
 (setq org-return-follows-link t)
 (add-to-list 'auto-mode-alist '("\\.org$" . org-mode))
 ;; (org-remember-insinuate)
-(setq org-directory "~/.config/memo/")
+(setq org-directory "~/.config/org-agenda/")
 (setq org-default-notes-file (concat org-directory "memo.org"))
 (setq org-capture-templates
       '(("t" "Todo" entry
@@ -16,6 +16,9 @@
          "** TODO %?   :bug:\n   %i\n   %a\n")
         ("i" "Idea" entry
          (file+headline nil "New Ideas")
+         "** %?\n   %i\n   %a\n   ")
+	("m" "Memo" entry
+         (file+headline nil "Memo")
          "** %?\n   %i\n   %a\n   ")))
 
  
