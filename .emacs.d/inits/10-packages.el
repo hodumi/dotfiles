@@ -52,15 +52,14 @@
     sass-mode
     scss-mode
     emmet-mode
-
     vbasense
-    
     markdown-mode
 
     slime
     mew
     google-this
     helm-themes
+    calfw
 
     edbi
     edbi-sqlite

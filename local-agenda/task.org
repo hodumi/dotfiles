@@ -1,6 +1,4 @@
 * Works
-** Dayly
-*** 毎月15~20にホストデータバックアップ
 ** Project
 #+CATEGORY: Works
 *** STARTED ユニバース提出資料 					    :Project:
@@ -29,12 +27,9 @@
   + 誰がやるの？
   + どう操作するの？(操作しているの？)
   + 
-* Hoby
-#+CATEGORY: Hoby
-** STARTED CLOG					
-** STARTED Imgr					
-*** Memo
-Node.js + Express + bootstrap
 * org-mode config
 #+SEQ_TODO: TODO(t) STARTED(s) WAITING(w) APPT(a) | DONE(d) CANCELLED(c) DEFERRED(f)
 #+TAGS: Work-Project(o) Home-Project(h)
+#+STARTUP: overview
+#+STARTUP: hidestars
+#+STARTUP: logdone
