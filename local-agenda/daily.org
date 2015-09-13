@@ -1,8 +1,0 @@
-* Daily-Tasks
-#+CATEGORY: Daily
-** TODO ホストバックアップ
-
-** TODO オーダーブック出力
-
-** VAN請求締処理   
-

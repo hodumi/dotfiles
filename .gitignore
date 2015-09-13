@@ -7,3 +7,6 @@
 /local/
 !.gitkeep
 /.emacs.d/junk/
+/local-agenda/
+
+!empty
