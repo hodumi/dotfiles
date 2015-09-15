@@ -1,32 +1,5 @@
 * Works
 ** Project
-#+CATEGORY: Works
-*** STARTED ユニバース提出資料 					    :Project:
-**** TODO 修正
-**** 運行日の前日
-*** STARTED 山梨県流通センター会場予約システム 			    :Project:
-**** 利用手順書を作る。
-**** テストする。
-
-*** WAITING 新センター仕分システム(5色5ボタン対応) 		    :Project:
-   SCHEDULED: <2015-11-01> 頃
-   DEADLINE: <2016-03-01> 頃
-**** 仕様
-**** 開発機
-- メモリ :: 2GB
-- HDD :: 64GB or 32GB
-- OS :: Windows7 Embeded
-**** 開発言語
-     VB.Net
-**** 確認すること
-- .Net Frameworkのバージョン
-- 電文の仕様一覧表が欲しい。
-- 仕分の作業手順を知りたい
-- そもそも、仕分は何をするもの？(よく分かっていない)
-  + 目的は？
-  + 誰がやるの？
-  + どう操作するの？(操作しているの？)
-  + 
 * org-mode config
 #+SEQ_TODO: TODO(t) STARTED(s) WAITING(w) APPT(a) | DONE(d) CANCELLED(c) DEFERRED(f)
 #+TAGS: Work-Project(o) Home-Project(h)
