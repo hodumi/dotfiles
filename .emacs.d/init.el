@@ -10,10 +10,13 @@
 (package-initialize)
 
 
-;; Installed-check & Install init-loader
+;; Installed check & Install init-loader
 (let ((loader 'init-loader))
   (when (not (package-installed-p loader))
     (package-install loader)))
+
+;; Add site-lisp 
+(add-to-list 'load-path "~/.emacs.d/site-lisp")
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;;; init-loader
