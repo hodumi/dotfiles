@@ -16,7 +16,8 @@
     auto-complete
 ;    anything
     ac-emmet
-
+    auto-save-buffers-enhanced
+    save-visited-files
     
     helm
     rainbow-mode
