@@ -20,6 +20,10 @@
     save-visited-files
     
     helm
+    helm-swoop
+    helm-projectile
+    helm-themes
+
     rainbow-mode
     rainbow-delimiters
     highlight-indentation
@@ -32,7 +36,6 @@
     visual-regexp
     flycheck
     comment-dwim-2
-    helm-projectile
     
     bm
     point-undo
@@ -59,7 +62,6 @@
     slime
     mew
     google-this
-    helm-themes
     calfw
 
     edbi
