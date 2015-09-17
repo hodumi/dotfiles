@@ -1,3 +1,4 @@
+#+CATEGORY: MEMO
 * New Ideas
 ** [[http://play.freeciv.org//][ブラウザ上のFreeCiv]]
 ** 魔法陣作成ツール
