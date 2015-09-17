@@ -28,7 +28,11 @@
 
 ;; タブに表示させるバッファの設定
 (defvar my-tabbar-displayed-buffers
-  '("*scratch*" "*Messages*" "*Backtrace*" "*Colors*" "*Faces*" "*vc-" "*slime-repl sbcl*")
+  '("*scratch*" "*Messages*" "*Backtrace*" "*Colors*" "*Faces*" "*vc-" "*slime-repl sbcl*" )
+  "*Regexps matches buffer names always included tabs.")
+
+(defvar my-tabbar-ignore-displayed-buffers
+  '("task.org" "memo.org")
   "*Regexps matches buffer names always included tabs.")
 
 (defun my-tabbar-buffer-list ()
@@ -38,12 +42,14 @@ The current buffer and buffers matches `my-tabbar-displayed-buffers'
 are always included."
   (let* ((hides (list ?\  ?\*))
          (re (regexp-opt my-tabbar-displayed-buffers))
+	 (ure (regexp-opt my-tabbar-ignore-displayed-buffers))
          (cur-buf (current-buffer))
          (tabs (delq nil
                      (mapcar (lambda (buf)
                                (let ((name (buffer-name buf)))
-                                 (when (or (string-match re name)
-                                           (not (memq (aref name 0) hides)))
+                                 (when (and (or (string-match re name)
+						(not (memq (aref name 0) hides)))
+					    (not (string-match ure name)))
                                    buf)))
                              (buffer-list)))))
     ;; Always include the current buffer.
