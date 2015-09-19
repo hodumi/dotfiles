@@ -58,7 +58,8 @@
     emmet-mode
     vbasense
     markdown-mode
-
+    jade-mode
+    
     slime
     mew
     google-this
