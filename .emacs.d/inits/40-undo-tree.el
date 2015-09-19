@@ -3,4 +3,5 @@
 (require 'undo-tree)
 (global-undo-tree-mode t)
 ;; (global-set-key (kbd "M-/") 'undo-tree-redo)
-(unbind-key (kbd "C-/") undo-tree-map)
+(unbind-key "C-/" undo-tree-map)
+
