@@ -1,0 +1,10 @@
+#+CATEGORY: work-log
+
+
+* org-mode config
+#+SEQ_TODO: TODO(t) STARTED(s) WAITING(w) APPT(a) | DONE(d) CANCELLED(c) DEFERRED(f)
+#+TAGS: Work-Project(o) Home-Project(h)
+#+STARTUP: overview
+#+STARTUP: hidestars
+#+STARTUP: logdone
+
