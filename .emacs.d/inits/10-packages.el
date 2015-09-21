@@ -47,7 +47,7 @@
     powerline
     yascroll
     mwim
-    minimap
+    ;; minimap
     open-junk-file
 
 ;   w3m

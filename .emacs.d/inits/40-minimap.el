@@ -1,6 +1,6 @@
 
-(require 'minimap)
+;; (require 'minimap)
 
-(minimap-mode 1)
+;; (minimap-mode 1)
 
-(bind-key "C-c m" 'minimap-toggle)
+;; (bind-key "C-c m" 'minimap-toggle)
