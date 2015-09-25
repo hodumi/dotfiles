@@ -64,6 +64,7 @@
     mew
     google-this
     calfw
+    nyan-mode
 
     edbi
     edbi-sqlite
