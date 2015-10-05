@@ -23,14 +23,16 @@
   (concat (org-work-log:generate-todays-work-log-directory root) "/" (format-time-string "%Y-%m-%d.org")))
 
 (defun org-work-log:make-directory (root)
-  (let ((dir (org-work-log:generate-todays-work-log-directory root)))
-    (if (not (file-directory-p dir))
-	(make-directory dir))
-    dir))
-
-
-
-(file-directory-p "~/work-log/2015/10")
+  (labels
+      ((mkdir (dir lst)
+	      (if (not (file-directory-p dir))
+		  (make-directory dir))
+	      (if (not (null lst))
+		  (mkdir (concat dir "/" (car lst)) (cdr lst)))))
+    (let* ((work-log-dir (org-work-log:generate-todays-work-log-directory root))
+	   (work-log-list (split-string work-log-dir "/")))
+      (mkdir (car work-log-list) (cdr work-log-list))
+      work-log-dir)))
 
 (defun org-work-log:create-work-log-file (file template-file)  
   (let ((tmp (find-file-noselect template-file nil t)))
