@@ -56,11 +56,36 @@
     (find-file file)))
 
 
+(defun org-work-log:directory-dirs (dir)
+    "Find all directories in DIR. Copied by http://emacswiki.org/emacs/ElispCookbook"
+    (unless (file-directory-p dir)
+      (error "Not a directory `%s'" dir))
+    (let ((dir (directory-file-name dir))
+          (dirs '())
+          (files (directory-files dir nil nil t)))
+        (dolist (file files)
+          (unless (member file '("." ".."))
+            (let ((file (concat (file-name-as-directory dir) file)))
+              (when (file-directory-p file)
+                (setq dirs (append (cons file
+                                         (directory-dirs file))
+                                   dirs))))))
+        dirs))
+
+(defun org-work-log:add-to-agenda (root)
+  (dolist (dir (org-work-log:directory-dirs root) org-agenda-files)
+    (add-to-list 'org-agenda-files dir)
+  ))
+
+ 
+;;; Config
 
 (bind-key (kbd "C-c w l") 'org-work-log:switch-work-log)
 
 (org-work-log:create-todays-work-log org-work-log:work-log-root org-work-log:work-log-template)
+(org-work-log:add-to-agenda org-work-log:work-log-root)
 
+(setq org-agenda-files nil)
 
 
 (provide 'org-work-log)
