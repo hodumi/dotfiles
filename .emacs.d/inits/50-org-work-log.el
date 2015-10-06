@@ -68,7 +68,7 @@
             (let ((file (concat (file-name-as-directory dir) file)))
               (when (file-directory-p file)
                 (setq dirs (append (cons file
-                                         (directory-dirs file))
+                                         (org-work-log:directory-dirs file))
                                    dirs))))))
         dirs))
 
