@@ -32,7 +32,7 @@
   "*Regexps matches buffer names always included tabs.")
 
 (defvar my-tabbar-ignore-displayed-buffers
-  '("task.org" "memo.org")
+  '(".org")
   "*Regexps matches buffer names always included tabs.")
 
 (defun my-tabbar-buffer-list ()
