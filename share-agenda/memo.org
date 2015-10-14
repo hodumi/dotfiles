@@ -34,4 +34,6 @@
 * Inbox
 * Memo
 ** CLOG
-** 
+** Pix-Box
+- uploadフォルダに画像を入れる。 → 読み込みボタン押下 → public/imagesとpublic/thumbnailsにいれられる。(名前はハッシュ値)
+- 
