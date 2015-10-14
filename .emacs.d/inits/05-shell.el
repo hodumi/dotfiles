@@ -9,3 +9,8 @@
 (require 'server)
 (unless (server-running-p)
   (server-start))
+
+;; eshell用コマンド
+
+(defun cd.. ()
+  (cd ".."))
