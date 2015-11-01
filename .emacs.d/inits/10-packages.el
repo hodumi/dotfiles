@@ -65,6 +65,8 @@
     google-this
     calfw
     nyan-mode
+    vagrant
+    ;; vagrant-tramp
 
     edbi
     edbi-sqlite
