@@ -35,3 +35,6 @@
 
 ;; C-x kと間違えやすいキーバインドを削除
 (unbind-key (kbd "C-x C-k <RET>")) 
+
+;; shell-commandをeshell-commandに変更
+(bind-key (kbd "M-!") 'eshell-command)
