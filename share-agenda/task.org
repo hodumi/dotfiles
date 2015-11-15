@@ -1,9 +1,4 @@
-
-
-* TODO 歯医者予約
-  SCHEDULED: <2015-09-28 月 18:00 +1w>
-  :PROPERTIES:
-  :END:      
+* Projects
 * org-mode config
 #+SEQ_TODO: TODO(t) STARTED(s) WAITING(w) APPT(a) | DONE(d) CANCELLED(c) DEFERRED(f)
 #+TAGS: Work-Project(o) Home-Project(h)
