@@ -36,6 +36,7 @@
     ;; direx
     visual-regexp
     flycheck
+    flycheck-pos-tip
     comment-dwim-2
     
     bm
