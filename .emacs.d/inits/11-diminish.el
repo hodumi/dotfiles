@@ -9,7 +9,7 @@
 
 (safe-diminish "abbrev" 'abbrev-mode)
 (safe-diminish "auto-complete" 'auto-complete-mode)
-(safe-diminish "flycheck" 'flycheck-mode)
+;; (safe-diminish "flycheck" 'flycheck-mode)
 (safe-diminish "google-this" 'google-this-mode)
 (safe-diminish "helm-mode" 'helm-mode)
 (safe-diminish "rainbow-mode" 'rainbow-mode)
