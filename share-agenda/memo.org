@@ -1,39 +1,56 @@
 #+CATEGORY: MEMO
 * New Ideas
-** [[http://play.freeciv.org//][ブラウザ上のFreeCiv]]
 ** 魔法陣作成ツール
-- node-webkit + JavaScript + SVG
+- Electron + JavaScript + SVG
   - SVG: ベジェ曲線に沿わせて文字の描画が出来る。
+- CADのように数値を直接入力
 ** 登録済みフォルダとカレントディレクトリをExplorerで開くランチャ
-** [[http://sakito.jp/emacs/emacsshell.html][Emacs 上で快適に Bash や Zsh を利用する設定]]
-** [[http://qiita.com/itiut@github/items/a2a04124cc6d7c3eb766][gitプロジェクトのルートディレクトリ名を取得する]]
-** [[http://photoshopvip.net/archives/66089][テクスチャ集]]
-** [[http://d.hatena.ne.jp/kiwanami/20110723/1311434175][Emacs用カレンダー(GoogleCalendar対応)]]
-** [[http://www.catananytime.com/][HTML5製CATAN]]
-** cakephp上で、<prefix> v でViewファイル、<prefix> cでControlerファイル, <prefix> mでモデルファイルを開けたらいいな [[http://shigemk2.hatenablog.com/entry/20110816/1313473346][ネーミング参考]]
-** [[http://fightcodegame.com/][プログラマブルロボット対戦ゲーム]]
-** [[https://note.mu/teramotodaiki/n/nfa8d3d54fdf7][ハックするしかないRPG]]
-** [[http://plus.appgiga.jp/masatolan/2014/08/27/53422/][ソースコード解析によるプログラミング学習サービスまとめ]]   
-** [[http://d.hatena.ne.jp/aike/20120723][竹内関数から音楽生成]]
-** [[http://lambda.bugyo.tk/progra_marugakusei.txt][プログラマは○学生]]
-   魔法＝プログラムの世界で、魔法を使うためラムダ計算を学ぶ少女達の小説
+** cakephp上で、<prefix> v でViewファイル、<prefix> cでControlerファイル, <prefix> mでモデルファイルを開けたらいいな
+- [[http://shigemk2.hatenablog.com/entry/20110816/1313473346][ネーミング参考]]
 ** Growl + Emacs 何かできる?   
 - タスクの通知？
-** [[http://www.moongift.jp/2014/11/material-icons-%E3%83%9E%E3%83%86%E3%83%AA%E3%82%A2%E3%83%AB%E3%83%87%E3%82%B6%E3%82%A4%E3%83%B3%E5%90%91%E3%81%91%E3%81%AB%E4%BD%9C%E3%82%89%E3%82%8C%E3%81%9Fgoogle%E8%A3%BD%E3%82%A2%E3%82%A4/][Creative Commonsのアイコン集]]
-** [[http://qiita.com/advent-calendar/2014/emacs][Emacs Advent Calendar 2014]]
-** [[http://qiita.com/syohex/items/a669b35fbbfcdda0cbf2][gitの前回差分を見れる`git-gutter.el`]]
 ** なろうをEmacsで閲覧する?
 - なろう側APIはある
-  - ランキング等のみで、ユーザ認証はないみたい
+- ランキング等のみで、ユーザ認証 → ブックマーク表示はないみたい
 ** Unityで安定したLisp処理系があったらな
-** [[http://cashew.hatenablog.com/entry/2014/02/04/094515][フレームワーク集集]]  
-** [[http://d.hatena.ne.jp/kinneko/20081004/p4][Git(ギット)勉強会メモ]]
+** テーブル構造管理用ツール
++ Gitでバージョン管理すること前提
++ データはjson? csv?
++ テーブル構造変更後に自動でGitにcommitする。
++ SQLの簡単な実行環境もあったらいい。
++ 自動的にDBにテーブルを構築する。
+** org-modeのSCHEDULE/DEADLINEのリピートに何営業日前を設定できるようにする。
+** emacsからvlcを操作し、youtube上の音声を再生する。
++ プレイリストは事前につくっておく
+** org-worg-log
++ 一つのファイルにログをまとめる
++ gitのlogからorgの作業ログを自動生成
+** CLOG -- Common Lisp製 静的blog作成ツール
+#+CATEGORY: CLOG
+*** Common Lisp blOG system
+*** caveman
+** Pix-Box
+#+CATEGORY: Pix-Box
+- uploadフォルダに画像を入れる。 → 読み込みボタン押下 → public/imagesとpublic/thumbnailsにいれられる。(名前はハッシュ値)
+- タグを付ける。
+- タグ情報の保存DBは何にする？
+  + PostgreSQL
+  + MongoDB
+  + and more
+** ColorMixer -- 調色用のツール
+#+CATECORY: ColorMixer
+*** 開発環境
++ Electron 
++ Riot or React
++ bootstrap
+*** 必要な機能
++ カラーパレット
++ RGBの直接編集
++ HSVの直接編集
++ 色の一時記録
++ 要はGimpのカラーパレットのような機能
+* Inbox
+* Memo
 ** (ASDF:SYSTEM-SOURCE-DIRECTORY :package-name)でpackage-nameのディレクトリを取得できる
 ** cl-hamlやcl-mustacheと言ったテンプレートエンジンがある
 ** Node.jsでSHELLは動かせる。
-* Inbox
-* Memo
-** CLOG
-** Pix-Box
-- uploadフォルダに画像を入れる。 → 読み込みボタン押下 → public/imagesとpublic/thumbnailsにいれられる。(名前はハッシュ値)
-- 
