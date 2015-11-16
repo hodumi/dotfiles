@@ -10,6 +10,7 @@
 (setq org-directory "~/.config/share-agenda/")
 (setq local-org-directory "~/.config/local-agenda/")
 (setq org-default-notes-file (concat org-directory "memo.org"))
+
 (setq org-capture-templates
       '(("t" "Todo" entry
          (file+headline nil "Inbox")
@@ -22,7 +23,11 @@
          "** %?\n   %i\n   %a\n   ")
 	("m" "Memo" entry
          (file+headline nil "Memo")
-         "** %?\n   %i\n   %a\n   ")))
+         "** %?\n   %i\n   %a\n   ")
+	("w" "Work-todo" entry
+	 (file+datetree "~/.config/local-agenda/work.org" )
+	 "* TODO %? %U %i")
+	))
 
  
 (setq org-agenda-files (list local-org-directory org-directory)) ;agendaを使うため
