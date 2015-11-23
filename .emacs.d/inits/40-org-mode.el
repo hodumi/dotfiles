@@ -40,12 +40,3 @@
  
 (add-hook 'org-mode-hook 'turn-on-font-lock)
 
-
-(defun exit-to-clockcking-p ()
-  (if (org-clocking-p)			;
-      (if (not (yes-or-no-p "org-modeによる計測中です。Emacsを終了しますか？" ))
-	  (error "計測を終了させてから終了させてください。"))
-    t
-    ))
-
-(add-hook 'kill-emacs-hook 'exit-to-clockcking-p)
