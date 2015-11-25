@@ -41,3 +41,4 @@
 (add-hook 'org-mode-hook 'turn-on-font-lock)
 
 (unbind-key "M-h" org-mode-map)
+(bind-key "C-c C-x C-j" 'org-clock-goto)
