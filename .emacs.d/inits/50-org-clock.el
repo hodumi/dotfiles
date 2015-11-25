@@ -35,5 +35,4 @@
 
 (add-hook 'org-clock-in-hook 'set-clocking-color)
 (add-hook 'org-clock-out-hook 'set-unclocking-color)
-
-(set-unclocking-color)
+(add-hook 'emacs-startup-hook 'set-unclocking-color)
