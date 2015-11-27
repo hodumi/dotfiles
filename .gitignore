@@ -13,3 +13,6 @@
 /.emacs.d/scratch
 /.emacs.d/emacs-visited-files
 /.emacs.d/.mc-lists.el
+
+# flycheck
+flycheck_*
