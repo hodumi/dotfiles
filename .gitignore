@@ -12,3 +12,6 @@
 !empty
 /.emacs.d/scratch
 /.emacs.d/emacs-visited-files
+
+# flycheck
+flycheck_*
