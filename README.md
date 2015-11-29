@@ -5,12 +5,12 @@
 -----------------
 1. `git clone https://github.com/hodumi/dotfiles.git`を実行
 2. `.emacs.d`のリンクをホームディレクトリに作成
-  - Windows : `mklink /D %HOME%/.emacs.d`
 2. emacsを起動し、`M-x package-install init-loader`
 3. emacsを再起動する。
 
  
-# edbi使用時の注意点
+edbi使用時の注意点
+------------------
 `edbi`使用には、Perlのパッケージが必要  
 Windows用Perl：[Active Perl](http://www.activestate.com/activeperl)  
 ```
@@ -18,7 +18,8 @@ ppm install RPC-EPC-Service
 ppm install DBD-SQLite
 ```
 
-# `.emacs/inits/`以下のナンバリング方法
+`.emacs/inits/`以下のナンバリング
+-------------------------------------
 
 | No. | 内容                         |
 |:---:|:----------------------------:|
