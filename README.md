@@ -1,24 +1,15 @@
 .config
 ==========
 
+インストール方法
+-----------------
+1. `git clone https://github.com/hodumi/dotfiles.git`を実行
+2. `.emacs.d`のリンクをホームディレクトリに作成
+  - Windows : `mklink /D %HOME%/.emacs.d`
+2. emacsを起動し、`M-x package-install init-loader`
+3. emacsを再起動する。
 
-# TODO
-* 特になし
-
-# 注意点
-1. commitするときは、UTF-8で！
-2. 初期実行時に、`init-loader`を手動インストールする!
-3. 
-
-   
-# 登録済み独自パッケージ名
-[Package BOF](http://www.java-conf.gr.jp/wg_bof/package/) : jp.gr.java_conf.hodumi
-
-# グローバルな.gitignore登録方法
-```
-$ git config --global --add core.excludesfile "$HOME/.config/.git-global-ignore"
-```
-
+ 
 # edbi使用時の注意点
 `edbi`使用には、Perlのパッケージが必要  
 Windows用Perl：[Active Perl](http://www.activestate.com/activeperl)  
@@ -27,14 +18,13 @@ ppm install RPC-EPC-Service
 ppm install DBD-SQLite
 ```
 
-
 # `.emacs/inits/`以下のナンバリング方法
 
 | No. | 内容                         |
 |:---:|:----------------------------:|
 | 0n  |  emacs自身の設定                 |
-| 1n  |  ビルドインパッケージの設定  |
-| 2n  |  ビルドインパッケージの設定  |
-| 3n  |  パッケージの設定            |
-| 4n  |  パッケージの設定            |
+| 1n  |  ビルドインパッケージの設定1(前提)  |
+| 2n  |  ビルドインパッケージの設定2  |
+| 3n  |  パッケージの設定1(前提)            |
+| 4n  |  パッケージの設定2            |
 | 5n  |  自作パッケージ              |
