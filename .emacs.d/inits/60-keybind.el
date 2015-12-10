@@ -38,3 +38,10 @@
 
 ;; shell-commandをeshell-commandに変更
 (bind-key (kbd "M-!") 'eshell-command)
+
+;; <f5>にrevert-bufferを設定
+(bind-key (kbd "<f5>") 'revert-buffer)
+
+;; M-<f5>とESC <f5>にrevert-all-buffersを設定
+(bind-key (kbd "M-<f5>") 'revert-all-buffers)
+(bind-key (kbd "ESC <f5>") 'revert-all-buffers)
