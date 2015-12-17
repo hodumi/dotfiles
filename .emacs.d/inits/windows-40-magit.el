@@ -4,4 +4,4 @@
 
 (setq magit-git-executable "C:/bin/Git/bin/git.exe")
 
-(bind-key (kbd "M-g") 'magit-status)
+;; (bind-key (kbd "M-g") 'magit-status)
