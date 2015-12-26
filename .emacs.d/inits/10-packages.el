@@ -57,6 +57,7 @@
 
 ;   w3m
     org
+    org-projectile
     web-mode
     sass-mode
     scss-mode
