@@ -1,5 +1,6 @@
 
-(require 'org-clock)
+;; (require 'org-clock)
+(autoload 'org-clocking-p "org-clock")
 
 ;;; 計測中チェック
 (defun exit-to-clockcking-p ()
@@ -15,8 +16,6 @@
 
 (defvar default-modeline-foreground (face-foreground 'mode-line))
 (defvar default-modeline-background (face-background 'mode-line))
-
-
  
 (defun set-unclocking-color ()
   (set-face-attribute 'mode-line nil
