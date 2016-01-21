@@ -8,7 +8,7 @@
 
 (add-to-list 'custom-theme-load-path "~/hodumi-theme/")
 (load-theme 'hodumi)
-(global-hl-line-mode)
+(initialize-hodumi-theme)
 
 ;; generic-x追加
 (require 'generic-x)
