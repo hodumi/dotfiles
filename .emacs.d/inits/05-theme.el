@@ -6,23 +6,10 @@
                '(alpha . (90 85))
                ) default-frame-alist))
 
-
-(load-theme 'tango-dark)
+(add-to-list 'custom-theme-load-path "~/hodumi-theme/")
+(load-theme 'hodumi)
+(global-hl-line-mode)
 
 ;; generic-x追加
 (require 'generic-x)
 
-;; 色の確認
-; M-x list-faces-display
-
-;; カーソルのある行を暗くする。
-(defface hlline-face
-  '((((class color)
-      (background dark))
-     (:background "#303030" :underline "#2e3436"))
-    )
-  "*Face used by hl-line.")
-(setq hl-line-face 'hlline-face)
-(global-hl-line-mode)
-
-; #2e3436
