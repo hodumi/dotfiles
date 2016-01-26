@@ -1,0 +1,6 @@
+#!/bin/sh
+
+
+echo "# -*- coding: utf-8 -*- " > c:/home/git-log.org
+
+git.exe --no-pager log --pretty=format:"* DONE %s %n CLOSED: <%ad> " --date=iso --no-merges >> git-log.org
