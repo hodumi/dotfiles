@@ -24,7 +24,7 @@
     helm-projectile
     helm-themes
 
-    eshell-prompt-extras
+    ;; eshell-prompt-extras
     rainbow-mode
     rainbow-delimiters
     highlight-indentation
