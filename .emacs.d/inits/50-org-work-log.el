@@ -80,10 +80,10 @@
  
 ;;; Config
 
-(bind-key (kbd "C-c w l") 'org-work-log:switch-work-log)
+;; (bind-key (kbd "C-c w l") 'org-work-log:switch-work-log)
 
-(org-work-log:create-todays-work-log org-work-log:work-log-root org-work-log:work-log-template)
-(org-work-log:add-to-agenda org-work-log:work-log-root)
+;; (org-work-log:create-todays-work-log org-work-log:work-log-root org-work-log:work-log-template)
+;; (org-work-log:add-to-agenda org-work-log:work-log-root)
 
 ;; (setq org-agenda-files nil)
 
