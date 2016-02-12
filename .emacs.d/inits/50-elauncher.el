@@ -29,6 +29,7 @@
 (defun elauncher:root-directory (&optional directory)
   (let ((dir (or directory default-directory)))
     (or
+
      (locate-dominating-file dir ".git")
      (locate-dominating-file dir ".vagrant")
      dir)))
@@ -39,7 +40,15 @@
 (elauncher:defexplorer elauncher:open-default-directory default-directory) ; default-directoryの表示
 (elauncher:defexplorer elauncher:open-root-directory (elauncher:root-directory)) ; プロジェクトのルートディレクトリの表示
 
+
+
+
 (elauncher:defapplication run-calc "calc")
+
+
+(bind-key "C-c e l d" 'elauncher:open-default-directory)
+(bind-key "C-c e l r" 'elauncher:open-root-directory)
+
 
 (provide '50-elauncher)
 ;;; 50-elauncher ends here
