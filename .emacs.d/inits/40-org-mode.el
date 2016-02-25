@@ -12,6 +12,9 @@
 (setq local-org-directory "~/.config/local-agenda/")
 (setq org-default-notes-file (concat org-directory "memo.org"))
 
+(setq org-use-speed-commands t)		; スピードコマンドの有効化
+
+
 (setq org-capture-templates
       '(("t" "Todo" entry
          (file+headline nil "Inbox")
