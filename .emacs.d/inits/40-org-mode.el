@@ -12,8 +12,10 @@
 (setq local-org-directory "~/.config/local-agenda/")
 (setq org-default-notes-file (concat org-directory "memo.org"))
 
-(setq org-use-speed-commands t)		; スピードコマンドの有効化
+(setq org-use-speed-commands 1)		; スピードコマンドの有効化
 
+;; スピードコマンド中のコマンド
+(add-to-list 'org-speed-commands-user '("i" call-interactively 'org-cycle))
 
 (setq org-capture-templates
       '(("t" "Todo" entry
