@@ -18,6 +18,7 @@
     ac-emmet
     auto-save-buffers-enhanced
     save-visited-files
+    japanese-holidays
     
     helm
     helm-swoop
