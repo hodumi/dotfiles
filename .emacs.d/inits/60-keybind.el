@@ -45,3 +45,6 @@
 ;; M-<f5>とESC <f5>にrevert-all-buffersを設定
 (bind-key (kbd "M-<f5>") 'revert-all-buffers)
 (bind-key (kbd "ESC <f5>") 'revert-all-buffers)
+
+;; F12にカレンダー表示を設定
+(bind-key (kbd "<f12>") 'cfw:open-org-calendar)
