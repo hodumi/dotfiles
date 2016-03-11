@@ -29,15 +29,15 @@
 (defun elauncher:root-directory (&optional directory)
   (let ((dir (or directory default-directory)))
     (or
-
      (locate-dominating-file dir ".git")
      (locate-dominating-file dir ".vagrant")
      dir)))
 
 
 
-;; Example.
+;; Examples.
 (elauncher:defexplorer elauncher:open-default-directory default-directory) ; default-directoryの表示
+(elauncher:defexplorer elauncher:open-home-directory "~" ) ; HOMEの表示
 (elauncher:defexplorer elauncher:open-root-directory (elauncher:root-directory)) ; プロジェクトのルートディレクトリの表示
 
 
@@ -47,6 +47,7 @@
 
 
 (bind-key "C-c e l d" 'elauncher:open-default-directory)
+(bind-key "C-c e l h" 'elauncher:open-home-directory)
 (bind-key "C-c e l r" 'elauncher:open-root-directory)
 
 
