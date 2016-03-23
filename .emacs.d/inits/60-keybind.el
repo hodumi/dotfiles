@@ -48,3 +48,6 @@
 
 ;; F12にカレンダー表示を設定
 (bind-key (kbd "<f12>") 'cfw:open-org-calendar)
+
+;; C-!にeshell起動を設定
+(bind-key (kbd "C-!") 'eshell)
