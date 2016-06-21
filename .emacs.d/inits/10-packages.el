@@ -55,7 +55,6 @@
     open-junk-file
 
     editorconfig
-    editorconfig-core
 
 ;   w3m
     org
