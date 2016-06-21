@@ -42,7 +42,8 @@
     
     bm
     point-undo
-    undo-tree
+    ;; undo-tree
+    redo+
     magit
 
     smooth-scroll

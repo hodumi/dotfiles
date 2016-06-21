@@ -1,5 +1,8 @@
 ; -*- Mode: Emacs-Lisp ; Coding: utf-8 -*-
 
+;; C-/のundoを無効化
+(unbind-key "C-/")
+
 ;; C-tを無効化
 (unbind-key (kbd "C-t"))
 
