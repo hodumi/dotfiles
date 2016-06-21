@@ -7,10 +7,13 @@
 
 (defun elauncher:open-directory (&optional directory)
    (when (string-equal system-type "windows-nt")
-     (w32-shell-execute "explore" (or directory default-directory))))
+     (let ((dir (or directory default-directory)))
+       (message "Opend: %s" dir)
+       (w32-shell-execute "explore" dir))))
 
 (defun elauncher:run-application (file &optional parameters)
   (when (string-equal system-type "windows-nt")
+    (message "Opend: %s %s" file parameters)
     (w32-shell-execute "open" file parameters)))   
 
 
