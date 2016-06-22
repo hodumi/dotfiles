@@ -1,4 +1,3 @@
-
 ; -*- Mode: Emacs-Lisp ; Coding: utf-8 -*-
 
 (require 'web-mode)
@@ -18,3 +17,13 @@
 			     (rainbow-mode)
 			     (rainbow-delimiters-mode)))
 
+(with-eval-after-load 'flycheck
+  (flycheck-add-mode 'html-tidy 'web-mode)
+  (flycheck-add-mode 'css-csslint 'web-mode)
+  (flycheck-add-mode 'php 'web-mode)
+  ;; (flycheck-add-mode 'php-phpcs 'web-mode)
+  ;; (flycheck-add-mode 'php-phpmd 'web-mode)
+  )
+
+
+;; (setq flycheck-phpcs-standard "PSR2")
