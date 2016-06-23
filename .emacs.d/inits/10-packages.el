@@ -48,6 +48,7 @@
 
     smooth-scroll
     tabbar
+    mode-icons
     powerline
     yascroll
     mwim
