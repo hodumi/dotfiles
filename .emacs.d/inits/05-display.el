@@ -20,3 +20,9 @@
 
 ;; キー入力時、マウスカーソルを左上に移動(一時的)
 (mouse-avoidance-mode 'exile)
+
+;; 画面端 + 5行でスクロールする。
+(setq scroll-margin 5)
+
+;; スクロールされる行数を1行にする。
+(setq scroll-conservatively 1)
