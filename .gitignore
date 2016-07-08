@@ -3,11 +3,12 @@
 \#*\#
 .\#*
   
-# ローカル設定フォルダ
+# ローカル設定
 /local/
 !.gitkeep
 /.emacs.d/junk/
 /local-agenda/
+*local.el
 
 !empty
 /.emacs.d/scratch
