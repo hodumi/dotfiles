@@ -33,6 +33,9 @@
 	("w" "Work-todo" entry
 	 (file+datetree "~/.config/local-agenda/work.org" )
 	 "* TODO %? %i")
+	("s" "Schedule" entry
+	 (file+olp "~/.config/local-agenda/task.org" "OtherSchedules")
+	 "** TODO %? %i\n    SCHEDULED: %^{Schedule}T DEADLINE: %^{Deadline}T")
 	))
 
  
