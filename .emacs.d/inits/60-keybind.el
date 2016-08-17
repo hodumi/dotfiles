@@ -30,9 +30,6 @@
 (bind-key (kbd "M-d") 'delete-word)
 (bind-key (kbd "M-h") 'backward-delete-word)
 
-;; C-c C-gで「行ジャンプ」に変更
-;; (bind-key (kbd "C-c C-g") 'goto-line)
-
 ;; C-s -> helm-swoop
 (bind-key (kbd "C-s") 'helm-swoop)
 
@@ -54,3 +51,31 @@
 
 ;; C-!にeshell起動を設定
 (bind-key (kbd "C-!") 'eshell)
+
+
+
+
+;;; ======================================
+;;; @ prefix keybinds
+;;; ======================================
+
+(defvar my-atkey-prefix (kbd "@"))
+
+(setq my-atkey-map (make-keymap))
+(define-key global-map my-atkey-prefix my-atkey-map)
+
+(defun my-set-key-atkey-map ()
+  (local-set-key my-atkey-prefix my-atkey-map))
+(add-hook `hexl-mode-hook 'my-set-key-atkey-map)
+(add-hook `view-mode-hook 'my-set-key-atkey-map)
+(add-hook `ediff-keymap-setup-hook '(lambda ()
+                                      (define-key ediff-mode-map my-atkey-prefix my-atkey-map)))
+
+;; @ gを「行ジャンプ」に変更
+(bind-key "g" 'goto-line my-atkey-map)
+
+;; @ tで、TODOファイルを開く
+(bind-key "t" 'root-project-todo my-atkey-map)  
+
+(define-key my-atkey-map my-atkey-prefix '(lambda () (interactive) (insert "@")))
+
