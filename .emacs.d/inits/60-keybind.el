@@ -75,7 +75,23 @@
 (bind-key "g" 'goto-line my-atkey-map)
 
 ;; @ tで、TODOファイルを開く
-(bind-key "t" 'root-project-todo my-atkey-map)  
+(bind-key "t" 'root-project-todo my-atkey-map)
+
+;; @ bで、buffer-listを開く
+(bind-key "b" 'helm-buffers-list my-atkey-map)
+
+;; @ oで、別ウィンドウに移動
+(bind-key "o" 'other-window my-atkey-map)
+
+;; @ cで、org-modeのファイル一覧表示
+(bind-key "c" 'org-iswitchb my-atkey-map)
+
+;; @ vで、プロジェクトのvcを表示
+(bind-key "v" 'projectile-vc my-atkey-map)
+
+;; @ hで、helm-projectileを表示
+(bind-key "h" 'helm-projectile my-atkey-map)
+
 
 (define-key my-atkey-map my-atkey-prefix '(lambda () (interactive) (insert "@")))
 
