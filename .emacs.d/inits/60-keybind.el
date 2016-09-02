@@ -52,8 +52,8 @@
 ;; C-!にeshell起動を設定
 (bind-key (kbd "C-!") 'eshell)
 
-
-
+;; C-x o をwin-switchに設定
+(bind-key (kbd "C-x o") 'win-switch-dispatch)
 
 ;;; ======================================
 ;;; @ prefix keybinds
@@ -81,7 +81,7 @@
 (bind-key "b" 'helm-buffers-list my-atkey-map)
 
 ;; @ oで、別ウィンドウに移動
-(bind-key "o" 'other-window my-atkey-map)
+(bind-key "o" 'win-switch-dispatch my-atkey-map)
 
 ;; @ cで、org-modeのファイル一覧表示
 (bind-key "c" 'org-iswitchb my-atkey-map)
