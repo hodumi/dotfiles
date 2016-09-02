@@ -19,6 +19,8 @@
     auto-save-buffers-enhanced
     save-visited-files
     japanese-holidays
+
+    pcre2el
     
     helm
     helm-swoop
@@ -36,6 +38,7 @@
     popwin
     ;; direx
     visual-regexp
+    visual-regexp-steroids
     flycheck
     flycheck-pos-tip
     comment-dwim-2
