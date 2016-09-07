@@ -92,6 +92,14 @@
 ;; @ hで、helm-projectileを表示
 (bind-key "h" 'helm-projectile my-atkey-map)
 
+;; @ 0で、window削除
+(bind-key "0" 'delete-window my-atkey-map)
+
+;; @ 2で、window縦分割
+(bind-key "2" 'split-window-below my-atkey-map)
+
+;; @ 3で、window横分割
+(bind-key "3" 'split-window-right my-atkey-map)
 
 (define-key my-atkey-map my-atkey-prefix '(lambda () (interactive) (insert "@")))
 
