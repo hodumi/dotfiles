@@ -55,6 +55,9 @@
 ;; C-x o をwin-switchに設定
 (bind-key (kbd "C-x o") 'win-switch-dispatch)
 
+;; <f10> を折り返し表示のtoggleに設定
+(bind-key (kbd "<f10>") 'toggle-truncate-lines)
+
 ;;; ======================================
 ;;; @ prefix keybinds
 ;;; ======================================
