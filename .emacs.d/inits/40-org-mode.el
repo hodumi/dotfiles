@@ -14,6 +14,7 @@
 
 (setq org-use-speed-commands 1)		; スピードコマンドの有効化
 
+
 ;; スピードコマンド中のコマンド
 (add-to-list 'org-speed-commands-user '("i" call-interactively 'org-cycle))
 
@@ -38,7 +39,7 @@
 	 "** TODO %? %i\n    SCHEDULED: %^{Schedule}T DEADLINE: %^{Deadline}T")
 	))
 
- 
+(setq org-src-fontify-natively t) ;ソースコードのハイライト 
 (setq org-agenda-files (list local-org-directory org-directory)) ;agendaを使うため
 ;; ショートカットキー
 (global-set-key "\C-cl" 'org-store-link)
