@@ -4,4 +4,9 @@
 
 (setq magit-git-executable "C:/bin/Git/bin/git.exe")
 
+;; branch.description を 表示
+(magit-add-section-hook 'magit-status-sections-hook
+                        'magit-insert-branch-description
+                        nil t)
+
 ;; (bind-key (kbd "M-g") 'magit-status)
