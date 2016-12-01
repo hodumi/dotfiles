@@ -1,5 +1,16 @@
 ; -*- Mode: Emacs-Lisp ; Coding: utf-8 -*-
 
+
+;
+; 事前に以下のパッケージをインストールする
+; $ gem install compass
+; $ gem install scss_lint
+; $ gem install scss_lint_reporter_checkstyle
+
+
+;;; Code:
+
+(require 'css-mode)
 (require 'scss-mode)
 (add-to-list 'auto-mode-alist '("\\.scss$" . scss-mode))
 
