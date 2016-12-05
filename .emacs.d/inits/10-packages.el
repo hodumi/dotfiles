@@ -71,6 +71,8 @@
     vbasense
     markdown-mode
     jade-mode
+    graphviz-dot-mode
+    plantuml-mode
     
     slime
     mew
