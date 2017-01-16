@@ -1,0 +1,3 @@
+[submodule "cobol-mode"]
+	path = .emacs.d/site-lisp/cobol-mode
+	url = https://gist.github.com/6768e7dc53ea3dd2adca.git
