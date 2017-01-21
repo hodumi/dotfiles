@@ -9,3 +9,7 @@
 			      ))
 (autoload 'cobol-mode "cobol-mode"
   "Major mode for editing COBOL source files." t nil)
+
+
+(add-hook 'cobol-mode-hook #'(lambda()
+			       (read-only-mode 1)))
