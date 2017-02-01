@@ -59,6 +59,33 @@
 (bind-key (kbd "<f10>") 'toggle-truncate-lines)
 
 ;;; ======================================
+;;; view-mode keybinds
+;;; ======================================
+
+;; Exit,Quitを除外し、別コマンドに移動
+(unbind-key "e" view-mode-map)
+;; (unbind-key "q" view-mode-map)
+
+(defun view-mode:q-key-message ()
+  (interactive)
+  (message "q was changed to C-c C-q."))
+
+(bind-key "q" 'view-mode:q-key-message view-mode-map)
+(bind-key (kbd "C-c C-q") 'View-quit view-mode-map)
+
+
+;; @ prefixのために@を除外
+(unbind-key "@" view-mode-map)
+
+(bind-key "n" 'next-line view-mode-map)
+
+(bind-key "p" 'previous-line view-mode-map)
+(bind-key "a" 'mwim-beginning-of-code-or-line view-mode-map)
+(bind-key "e" 'mwim-end-of-code-or-line view-mode-map)
+(bind-key "l" 'recenter-top-bottom view-mode-map)
+
+
+;;; ======================================
 ;;; @ prefix keybinds
 ;;; ======================================
 
@@ -79,6 +106,8 @@
 
 ;; @ tで、TODOファイルを開く
 (bind-key "t" 'root-project-todo my-atkey-map)
+
+(bind-key "T" '(lambda() (interactive) (open-file "~/.config/local-agenda/task.org")) my-atkey-map)
 
 ;; @ bで、buffer-listを開く
 (bind-key "b" 'helm-buffers-list my-atkey-map)
