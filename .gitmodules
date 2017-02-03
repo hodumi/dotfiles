@@ -1,0 +1,3 @@
+[submodule ".emacs.d/site-lisp/ox-hatena"]
+	path = .emacs.d/site-lisp/ox-hatena
+	url = http://github.com/akisute3/ox-hatena.git
