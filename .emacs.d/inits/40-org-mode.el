@@ -8,7 +8,7 @@
 (setq org-return-follows-link t)
 (add-to-list 'auto-mode-alist '("\\.org$" . org-mode))
 ;; (org-remember-insinuate)
-(setq org-directory "~/.config/share-agenda/")
+(setq org-directory  "~/.config/local-agenda/")
 (setq local-org-directory "~/.config/local-agenda/")
 (setq org-default-notes-file (concat org-directory "memo.org"))
 
