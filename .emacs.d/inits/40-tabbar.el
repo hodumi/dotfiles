@@ -31,8 +31,9 @@
   '("*scratch*" "*Messages*" "*Backtrace*" "*Colors*" "*Faces*" "*vc-" "*slime-repl sbcl*" )
   "*Regexps matches buffer names always included tabs.")
 
+;; タブに表示させないバッファの設定
 (defvar my-tabbar-ignore-displayed-buffers
-  '(".org" "TODO")
+  '(".org" "TODO" "TAGS")
   "*Regexps matches buffer names always included tabs.")
 
 (defun my-tabbar-buffer-list ()
