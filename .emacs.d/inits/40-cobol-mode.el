@@ -12,4 +12,4 @@
 
 
 (add-hook 'cobol-mode-hook #'(lambda()
-			       (read-only-mode 1)))
+			       (view-mode 1)))
