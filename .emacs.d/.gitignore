@@ -12,6 +12,7 @@ url/
 tutorial/
 !inits/
 persp-confs/
+site-lisp/ox-hatena
 
 projectile-bookmarks.eld
 projectile.cache
