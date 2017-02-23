@@ -9,7 +9,7 @@
 (add-to-list 'auto-mode-alist '("\\.org$" . org-mode))
 ;; (org-remember-insinuate)
 (setq org-directory  "~/.config/local-agenda/")
-(setq local-org-directory "~/.config/local-agenda/")
+;; (setq local-org-directory "~/.config/local-agenda/")
 (setq org-default-notes-file (concat org-directory "memo.org"))
 
 (setq org-use-speed-commands 1)		; スピードコマンドの有効化
