@@ -13,4 +13,6 @@
 ;; ;; ファイルパスの文字コード
 (setq default-file-name-coding-system 'japanese-cp932-dos)
 
-
+;; magit用設定
+(setenv "LANG" "ja_JP.UTF-8")
+(setenv "LC_ALL" "ja_JP.UTF-8")

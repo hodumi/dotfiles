@@ -51,3 +51,5 @@
 
 (unbind-key "M-h" org-mode-map)
 (bind-key "C-c C-x C-j" 'org-clock-goto)
+
+(add-to-list 'auto-mode-alist '("\\.txt\\'" . org-mode))
