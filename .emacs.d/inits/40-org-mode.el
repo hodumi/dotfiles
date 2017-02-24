@@ -40,7 +40,8 @@
 	))
 
 (setq org-src-fontify-natively t) ;ソースコードのハイライト 
-(setq org-agenda-files (list local-org-directory org-directory)) ;agendaを使うため
+(setq org-agenda-files (list ;; local-org-directory
+			     org-directory)) ;agendaを使うため
 ;; ショートカットキー
 (global-set-key "\C-cl" 'org-store-link)
 (global-set-key "\C-co" 'org-capture)
