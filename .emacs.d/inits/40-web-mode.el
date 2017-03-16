@@ -15,7 +15,10 @@
 
 (add-hook 'web-mode-hook #'(lambda ()
 			     (rainbow-mode)
-			     (rainbow-delimiters-mode)))
+			     (rainbow-delimiters-mode)
+			     (setq web-mode-enable-auto-indentation nil)
+			     ))
+
 
 (with-eval-after-load 'flycheck
   (flycheck-add-mode 'html-tidy 'web-mode)
