@@ -26,3 +26,6 @@
 
 ;; スクロールされる行数を1行にする。
 (setq scroll-conservatively 1)
+
+;; スクリーンの最大化
+(set-frame-parameter nil 'fullscreen 'maximized)
