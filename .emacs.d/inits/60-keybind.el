@@ -124,6 +124,9 @@
 ;; @ hで、helm-projectileを表示
 (bind-key "h" 'helm-projectile my-atkey-map)
 
+;; @ p hで、helm-projectileを表示
+(bind-key "p h" 'helm-projectile-switch-project my-atkey-map)
+
 ;; @ 0で、window削除
 (bind-key "0" 'delete-window my-atkey-map)
 
@@ -132,6 +135,15 @@
 
 ;; @ 3で、window横分割
 (bind-key "3" 'split-window-right my-atkey-map)
+
+;; @ e rで、ルートディレクトリをexplorerで開く
+(bind-key "e r" 'elauncher:open-root-directory my-atkey-map)
+
+;; @ e dで、$HOMEをexplorerで開く
+(bind-key "e d" 'elauncher:open-home-directory my-atkey-map)
+
+;; @ e cで、カレントディレクトリをexplorerで開く
+(bind-key "e c" 'elauncher:open-default-directory my-atkey-map)
 
 (define-key my-atkey-map my-atkey-prefix '(lambda () (interactive) (insert "@")))
 
