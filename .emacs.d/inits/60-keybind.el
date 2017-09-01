@@ -58,6 +58,9 @@
 ;; <f10> を折り返し表示のtoggleに設定
 (bind-key (kbd "<f10>") 'toggle-truncate-lines)
 
+;; <f9> をview-mode切替に設定
+(bind-key (kbd "<f9>") 'view-mode)
+
 ;;; ======================================
 ;;; view-mode keybinds
 ;;; ======================================
@@ -77,12 +80,16 @@
 ;; @ prefixのために@を除外
 (unbind-key "@" view-mode-map)
 
+(bind-key "f" 'forward-char view-mode-map)
+(bind-key "b" 'backward-char view-mode-map)
 (bind-key "n" 'next-line view-mode-map)
-
 (bind-key "p" 'previous-line view-mode-map)
+
 (bind-key "a" 'mwim-beginning-of-code-or-line view-mode-map)
 (bind-key "e" 'mwim-end-of-code-or-line view-mode-map)
 (bind-key "l" 'recenter-top-bottom view-mode-map)
+
+(bind-key "s" 'helm-swoop view-mode-map)
 
 
 ;;; ======================================
