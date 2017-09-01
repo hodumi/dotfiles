@@ -33,7 +33,7 @@
     rainbow-delimiters
     highlight-indentation
     hl-line+
-    persp-mode
+    ;; persp-mode
     diminish
 
     popwin
@@ -49,6 +49,9 @@
     ;; undo-tree
     redo+
     magit
+
+    ;; perspeen
+    ;; helm-perspeen
 
     smooth-scroll
     tabbar
