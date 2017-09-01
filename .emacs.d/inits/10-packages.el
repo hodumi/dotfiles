@@ -42,6 +42,7 @@
     visual-regexp-steroids
     flycheck
     flycheck-pos-tip
+    flycheck-status-emoji
     comment-dwim-2
     
     bm
@@ -63,6 +64,7 @@
     open-junk-file
 
     editorconfig
+    editorconfig-charset-extras
 
 ;   w3m
     org
