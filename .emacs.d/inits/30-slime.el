@@ -1,6 +1,9 @@
 ; -*- Mode: Emacs-Lisp ; Coding: utf-8 -*-
 
-(setf inferior-lisp-program "sbcl") ; your Lisp system
-(require 'slime-autoloads)
-(slime-setup '(slime-repl))
 
+;; (require 'slime-autoloads)
+;; (slime-setup '(slime-repl))
+
+(load (expand-file-name "~/.roswell/helper.el"))
+
+(setq inferior-lisp-program "ros -Q run")
