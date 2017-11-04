@@ -68,6 +68,7 @@
 
 ;   w3m
     org
+    org-beautify-theme
     ;; org-projectile
     web-mode
     sass-mode
