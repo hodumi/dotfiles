@@ -22,12 +22,14 @@
 ;; Add site-lisp 
 ;(add-to-list 'load-path "~/.emacs.d/site-lisp")
 
+;; 自動挿入プログラムを移動 
+(setq custom-file (file-truename "~/.emacs.d/inits/99-custom-local.el"))
+
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;;; init-loader
 
 (require 'init-loader)
-
-(init-loader-load "~/.emacs.d/inits")
 
 ;; 起動時のログバッファを表示しない
 (setq init-loader-show-log-after-init nil) 
@@ -36,5 +38,6 @@
 (if (not (equal (init-loader-error-log) "")) 
     (init-loader-show-log))
 
-(put 'upcase-region 'disabled nil)
-(put 'scroll-left 'disabled nil)
+
+(init-loader-load "~/.emacs.d/inits")
+
