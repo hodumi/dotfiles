@@ -31,11 +31,15 @@
 	("m" "Memo" entry
          (file+headline nil "Memo")
          "** %?\n   %i\n   %a\n   ")
-	("w" "Work-todo" entry
-	 (file+datetree "~/.config/local-agenda/work.org" )
-	 "* TODO %? %i")
 	("s" "Schedule" entry
 	 (file+olp "~/.config/local-agenda/task.org" "OtherSchedules")
+	 "** TODO %? %i\n    SCHEDULED: %^{Schedule}T DEADLINE: %^{Deadline}T")
+
+	("M" "買物メモ" entry
+	 (file+olp "~/dropbox/share/task.org" "買物メモ")
+	 "** TODO %? %i")
+	("S" "スマホ予定" entry
+	 (file+olp "~/dropbox/share/task.org" "予定")
 	 "** TODO %? %i\n    SCHEDULED: %^{Schedule}T DEADLINE: %^{Deadline}T")
 	))
 
