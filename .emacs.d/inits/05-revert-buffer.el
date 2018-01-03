@@ -9,3 +9,4 @@
           (revert-buffer t t t) )))
     (message "Refreshed open files.") )
 
+(global-auto-revert-mode 1)
