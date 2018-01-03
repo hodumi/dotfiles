@@ -125,6 +125,9 @@
 ;; @ cで、org-modeのファイル一覧表示
 (bind-key "c" 'org-iswitchb my-atkey-map)
 
+;; @ kで、現在バッファの削除
+(bind-key "k" 'kill-buffer my-atkey-map)
+
 ;; @ vで、プロジェクトのvcを表示
 (bind-key "v" 'projectile-vc my-atkey-map)
 
