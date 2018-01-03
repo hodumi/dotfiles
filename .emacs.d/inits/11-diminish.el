@@ -16,4 +16,4 @@
 (safe-diminish "undo-tree" 'undo-tree-mode)
 (safe-diminish "whitespace" 'global-whitespace-mode)
 (safe-diminish "yasnippet" 'yas-minor-mode)
-
+(safe-diminish "editorconfig" 'editorconfig-mode)
