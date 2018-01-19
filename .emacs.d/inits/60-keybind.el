@@ -61,6 +61,9 @@
 ;; <f9> をview-mode切替に設定
 (bind-key (kbd "<f9>") 'view-mode)
 
+;; C-M-yをyasnippetコード選択挿入に変更
+(bind-key "C-M-y" 'yas-insert-snippet)
+
 ;;; ======================================
 ;;; view-mode keybinds
 ;;; ======================================

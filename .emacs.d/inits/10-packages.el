@@ -59,6 +59,8 @@
     mode-icons
     powerline
     yascroll
+    yasnippet
+    yasnippet-snippets
     mwim
     ;; minimap
     open-junk-file
