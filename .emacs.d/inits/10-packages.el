@@ -61,6 +61,7 @@
     yascroll
     yasnippet
     yasnippet-snippets
+    yatemplate
     mwim
     ;; minimap
     open-junk-file

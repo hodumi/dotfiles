@@ -1,0 +1,7 @@
+# -*- mode:org -*-
+#+TITLE: ${1: Project name}
+#+CATEGORY: $1
+
+* 作業すること[/]
+$0
+* 確認すること[/]
