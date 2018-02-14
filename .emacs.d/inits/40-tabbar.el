@@ -33,7 +33,7 @@
 
 ;; タブに表示させないバッファの設定
 (defvar my-tabbar-ignore-displayed-buffers
-  '(".org" "TAGS")
+  '(".org" "TAGS" "magit: " "magit-diff: " "magit-process: " "magit-log: ")
   "*Regexps matches buffer names always included tabs.")
 
 (defun my-tabbar-buffer-list ()
