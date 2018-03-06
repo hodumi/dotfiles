@@ -28,12 +28,12 @@
 
 ;; タブに表示させるバッファの設定
 (defvar my-tabbar-displayed-buffers
-  '("*scratch*" "*Messages*" "*Backtrace*" "*Colors*" "*Faces*" "*vc-" "*slime-repl sbcl*" )
+  '("*scratch*" "*Messages*" "*Backtrace*" "*Colors*" "*Faces*" "*vc-" "*slime-repl sbcl*" "magit.el")
   "*Regexps matches buffer names always included tabs.")
 
 ;; タブに表示させないバッファの設定
 (defvar my-tabbar-ignore-displayed-buffers
-  '(".org" "TAGS" "magit: " "magit-diff: " "magit-process: " "magit-log: ")
+  '("task.org" "TAGS" "magit")
   "*Regexps matches buffer names always included tabs.")
 
 (defun my-tabbar-buffer-list ()
