@@ -86,6 +86,7 @@
     slime
     mew
     google-this
+    google-maps
     calfw
     nyan-mode
     vagrant
