@@ -8,10 +8,9 @@
   '(
     ddskk
     ac-skk
-    el-get
+    ;el-get
     bind-key
     use-package
-    auto-install
     popup
     auto-complete
 ;    anything
@@ -32,7 +31,6 @@
     rainbow-mode
     rainbow-delimiters
     highlight-indentation
-    hl-line+
     ;; persp-mode
     diminish
 
@@ -46,9 +44,7 @@
     comment-dwim-2
     
     bm
-    point-undo
     ;; undo-tree
-    redo+
     magit
 
     ;; perspeen
