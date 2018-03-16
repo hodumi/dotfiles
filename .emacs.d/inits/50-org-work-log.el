@@ -23,7 +23,7 @@
   (concat (org-work-log:generate-todays-work-log-directory root) "/" (format-time-string "%Y-%m-%d.org")))
 
 (defun org-work-log:make-directory (root)
-  (labels
+  (cl-labels
       ((mkdir (dir lst)
 	      (if (not (file-directory-p dir))
 		  (make-directory dir))
