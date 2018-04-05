@@ -135,7 +135,7 @@
 (bind-key "k" 'kill-buffer my-atkey-map)
 
 ;; @ vで、プロジェクトのvcを表示
-(bind-key "v" 'projectile-vc my-atkey-map)
+(bind-key "v" '(lambda() (interactive) (projectile-vc)) my-atkey-map)
 
 ;; @ hで、helm-projectileを表示
 (bind-key "h" 'helm-projectile my-atkey-map)
