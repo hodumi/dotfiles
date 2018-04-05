@@ -85,6 +85,7 @@
     google-maps
     google-translate
     calfw
+    calfw-org
     nyan-mode
     vagrant
     ;; vagrant-tramp
