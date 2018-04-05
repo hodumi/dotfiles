@@ -83,6 +83,7 @@
     mew
     google-this
     google-maps
+    google-translate
     calfw
     nyan-mode
     vagrant

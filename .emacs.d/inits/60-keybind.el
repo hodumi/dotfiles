@@ -64,6 +64,9 @@
 ;; C-M-yをyasnippetコード選択挿入に変更
 (bind-key "C-M-y" 'yas-insert-snippet)
 
+;; C-c C-tをgoogle和英、英和翻訳に設定
+(bind-key "C-c t" 'google-translate-enja-or-jaen)
+
 ;;; ======================================
 ;;; view-mode keybinds
 ;;; ======================================
