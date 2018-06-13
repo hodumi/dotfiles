@@ -46,6 +46,14 @@
 (setq org-src-fontify-natively t) ;ソースコードのハイライト 
 (setq org-agenda-files (list ;; local-org-directory
 			     org-directory)) ;agendaを使うため
+
+; babelにgraphviz-dotを追加
+(org-babel-do-load-languages
+ 'org-babel-load-languages
+ '((dot . t))) 
+
+(require 'ox-reveal)
+
 ;; ショートカットキー
 (global-set-key "\C-cl" 'org-store-link)
 (global-set-key "\C-co" 'org-capture)

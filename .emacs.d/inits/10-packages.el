@@ -69,6 +69,8 @@
     org
     org-beautify-theme
     ;; org-projectile
+    ox-reveal
+
     web-mode
     sass-mode
     scss-mode
