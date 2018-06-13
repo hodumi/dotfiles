@@ -24,6 +24,7 @@
   (flycheck-add-mode 'html-tidy 'web-mode)
   (flycheck-add-mode 'css-csslint 'web-mode)
   (flycheck-add-mode 'php 'web-mode)
+  (flycheck-add-mode 'javascript-eslint 'web-mode)
   ;; (flycheck-add-mode 'php-phpcs 'web-mode)
   ;; (flycheck-add-mode 'php-phpmd 'web-mode)
   )
