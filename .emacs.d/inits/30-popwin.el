@@ -6,3 +6,7 @@
 (setq popwin:popup-window-position 'bottom)
 
 
+; eshellをpopwinで出すように設定
+(add-to-list  'popwin:special-display-config '("^\\*eshell.*\\*$" :regexp t :height 50 ))
+
+
