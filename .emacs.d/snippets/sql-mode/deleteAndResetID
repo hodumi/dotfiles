@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: deleteAndResetID
+# key: deleteAndResetID
+# --
+DELETE FROM $1;
+DBCC CHECKIDENT ('$1', RESEED, 0);
+
