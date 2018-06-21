@@ -46,6 +46,7 @@
     bm
     ;; undo-tree
     magit
+    magit-org-todos
 
     ;; perspeen
     ;; helm-perspeen
