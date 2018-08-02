@@ -31,8 +31,10 @@ def configure(keymap):
 
     # --------------------------------------------------------------------
 
-    # 無変換->Alt
-    # keymap.replaceKey( "(29)", "Alt" )
+    # 全角/半角->Alt
+    # keymap.replaceKey( "(243)", "Alt" )
+    # 半角/全角->Alt
+    # keymap.replaceKey( "(244)", "Alt" )
 
     # 変換->Shift
     # keymap.replaceKey( "(28)", "Shift" )
