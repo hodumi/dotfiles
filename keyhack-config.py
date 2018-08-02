@@ -49,18 +49,18 @@ def configure(keymap):
     # キーボードマウス
     keymap.defineModifier( 28, "User0" ) # 変換
     
-    keymap_global["User0-s"] = keymap.command_MouseMove(-10,0)
-    keymap_global["User0-f"] = keymap.command_MouseMove(10,0)
-    keymap_global["User0-e"] = keymap.command_MouseMove(0,-10)
-    keymap_global["User0-d"] = keymap.command_MouseMove(0,10)
+    keymap_global["User0-s"] = keymap.MouseMoveCommand(-10,0)
+    keymap_global["User0-f"] = keymap.MouseMoveCommand(10,0)
+    keymap_global["User0-e"] = keymap.MouseMoveCommand(0,-10)
+    keymap_global["User0-d"] = keymap.MouseMoveCommand(0,10)
 
-    keymap_global[ "D-User0-j" ] = keymap.command_MouseButtonDown('left')
-    keymap_global[ "U-User0-j" ] = keymap.command_MouseButtonUp('left')    
-    keymap_global[ "D-User0-o" ] = keymap.command_MouseButtonDown('right')
-    keymap_global[ "U-User0-o" ] = keymap.command_MouseButtonUp('right')
+    keymap_global[ "D-User0-j" ] = keymap.MouseButtonDownCommand('left')
+    keymap_global[ "U-User0-j" ] = keymap.MouseButtonUpCommand('left')    
+    keymap_global[ "D-User0-o" ] = keymap.MouseButtonDownCommand('right')
+    keymap_global[ "U-User0-o" ] = keymap.MouseButtonUpCommand('right')
 
-    keymap_global[ "User0-i" ] = keymap.command_MouseWheel(1.0)
-    keymap_global[ "User0-k" ] = keymap.command_MouseWheel(-1.0)
+    keymap_global[ "User0-i" ] = keymap.MouseWheelCommand(1.0)
+    keymap_global[ "User0-k" ] = keymap.MouseWheelCommand(-1.0)
 
 
     # キーボードカーソル
@@ -81,8 +81,8 @@ def configure(keymap):
     keymap_global["User1-C-l"] = "C-Right"
     keymap_global["User1-C-k"] = "C-Down"
 
-    keymap_global[ "User1-User0-i" ] = keymap.command_MouseWheel(1.0)
-    keymap_global[ "User1-User0-k" ] = keymap.command_MouseWheel(-1.0)
+    keymap_global[ "User1-User0-i" ] = keymap.MouseWheelCommand(1.0)
+    keymap_global[ "User1-User0-k" ] = keymap.MouseWheelCommand(-1.0)
 
     keymap_global["User1-Tab"] = "Alt-Tab"
     
