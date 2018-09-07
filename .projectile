@@ -1,5 +1,8 @@
 -.git/
+-.emacs.d/.cask/
 -.emacs.d/elpa/
 -.emacs.d/backup/
 -.emacs.d/auto-save-list/
 -.emacs.d/auto-save-file/
+-.emacs.d/el-get/
+-.emacs.d/emojis/
