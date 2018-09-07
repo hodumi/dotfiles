@@ -1,0 +1,12 @@
+# -*- mode:org -*-
+#+TITLE: ${1: Project name}
+#+CATEGORY: $1
+
+* 作業すること[/]
+$0
+* 確認すること[/]
+* org-mode config
+#+SEQ_TODO: TODO(t) AFTER(a) STARTED(s) WAITING(w) FIX(f) | DONE(d) CANCELLED(c)
+#+STARTUP: overview
+#+STARTUP: hidestars
+#+STARTUP: logdone
