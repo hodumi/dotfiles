@@ -88,3 +88,16 @@ def configure(keymap):
 
     keymap_global["User1-Tab"] = "Alt-Tab"
     
+    keymap_global["User1-q"] = "1"
+    keymap_global["User1-w"] = "2"
+    keymap_global["User1-e"] = "3"
+    keymap_global["User1-r"] = "4"
+    keymap_global["User1-t"] = "5"
+    keymap_global["User1-a"] = "6"
+    keymap_global["User1-s"] = "7"
+    keymap_global["User1-d"] = "8"
+    keymap_global["User1-f"] = "9"
+    keymap_global["User1-g"] = "0"
+
+    keymap_global["User1-h"] = "Back"
+    
