@@ -18,7 +18,7 @@
     auto-save-buffers-enhanced
     save-visited-files
     japanese-holidays
-    win-switch
+;    win-switch
 
     pcre2el
     
