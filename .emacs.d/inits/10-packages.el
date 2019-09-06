@@ -54,7 +54,7 @@
     smooth-scroll
     tabbar
     mode-icons
-    powerline
+    smart-mode-line
     yascroll
     yasnippet
     yasnippet-snippets

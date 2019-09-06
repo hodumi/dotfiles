@@ -18,18 +18,20 @@
 (defvar default-modeline-background (face-background 'mode-line))
  
 (defun set-unclocking-color ()
-  (set-face-attribute 'mode-line nil
-		      :foreground "#fff"
-		      :background "#8b0000"
-		      :inherit 'mode-line)
-   (powerline-reset))
+  ;; (set-face-attribute 'mode-line nil
+  ;; 		      :foreground "#fff"
+  ;; 		      :background "#8b0000"
+  ;; 		      :inherit 'mode-line)
+   ;(powerline-reset)
+   )
 
 (defun set-clocking-color ()
-  (set-face-attribute 'mode-line nil
-			  :foreground default-modeline-foreground
-			  :background default-modeline-background
-			  :inherit 'mode-line)
-  (powerline-reset))
+  ;; (set-face-attribute 'mode-line nil
+  ;; 			  :foreground default-modeline-foreground
+  ;; 			  :background default-modeline-background
+  ;; 			  :inherit 'mode-line)
+  ;(powerline-reset)
+  )
 
 
 (add-hook 'org-clock-in-hook 'set-clocking-color)
