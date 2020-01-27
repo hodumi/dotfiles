@@ -52,7 +52,7 @@
     ;; helm-perspeen
 
     smooth-scroll
-    tabbar
+;    tabbar
     mode-icons
     smart-mode-line
     yascroll
