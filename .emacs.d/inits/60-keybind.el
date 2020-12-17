@@ -125,8 +125,11 @@
 ;; @ oで、別ウィンドウに移動
 (bind-key "o" 'other-window my-atkey-map)
 
-;; @ cで、org-modeのファイル一覧表示
-(bind-key "c" 'org-iswitchb my-atkey-map)
+;; @ cで、キャメルケースに変換
+(bind-key "c" 'string-inflection-lower-camelcase my-atkey-map)
+
+;; @ sで、スネークケースに変換
+(bind-key "s" 'string-inflection-underscore my-atkey-map)
 
 ;; @ kで、現在バッファの削除
 (bind-key "k" 'kill-buffer my-atkey-map)

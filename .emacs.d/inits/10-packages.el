@@ -20,6 +20,8 @@
     japanese-holidays
 ;    win-switch
 
+    string-inflection
+
     pcre2el
     
     helm
